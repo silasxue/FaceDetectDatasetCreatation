@@ -1,0 +1,590 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	301;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	304;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	307;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	310;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	316;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	320;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d	file:
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/media\/yuanyang\/disk1\/git\/FaceDetectDatabaseCreatation\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_EDIT_COMMAND	build/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/cmake-gui$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/media\/yuanyang\/disk1\/git\/FaceDetectDatabaseCreatation$/;"	m
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	160;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	70;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	172;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	180;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	39;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	72;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	79;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	26;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	174;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	41;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+CalCbCr	faceRegion.hpp	/^struct TCbCr CalCbCr(int B, int G, int R)$/;"	f	signature:(int B, int G, int R)
+Cb	faceRegion.hpp	/^	double Cb;$/;"	m	struct:TCbCr	access:public
+CbCr	faceRegion.hpp	/^} CbCr;$/;"	v	typeref:struct:TCbCr
+Cr	faceRegion.hpp	/^	double Cr;$/;"	m	struct:TCbCr	access:public
+DEC	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	324;"	d	file:
+DEC	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+FACEDETWITHFILTER_H	FacedetWithFilter.h	2;"	d
+FACEFILTER_H	FaceFilter.h	2;"	d
+FACEREGION_HPP	faceRegion.hpp	2;"	d
+FaceFilter	FaceFilter.cpp	/^FaceFilter::FaceFilter():hog(Size(40,40), Size(16,16),Size(8,8), Size(8,8), 9)$/;"	f	class:FaceFilter	signature:()
+FaceFilter	FaceFilter.h	/^    FaceFilter();$/;"	p	class:FaceFilter	access:public	signature:()
+FaceFilter	FaceFilter.h	/^class FaceFilter$/;"	c
+FaceFilter::FaceFilter	FaceFilter.cpp	/^FaceFilter::FaceFilter():hog(Size(40,40), Size(16,16),Size(8,8), Size(8,8), 9)$/;"	f	class:FaceFilter	signature:()
+FaceFilter::FaceFilter	FaceFilter.h	/^    FaceFilter();$/;"	p	class:FaceFilter	access:public	signature:()
+FaceFilter::clean	FaceFilter.h	/^    void clean();$/;"	p	class:FaceFilter	access:public	signature:()
+FaceFilter::filter	FaceFilter.cpp	/^bool FaceFilter::filter( const Mat &inputimage, $/;"	f	class:FaceFilter	signature:( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold)
+FaceFilter::filter	FaceFilter.h	/^    bool filter( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold);$/;"	p	class:FaceFilter	access:public	signature:( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold)
+FaceFilter::hog	FaceFilter.h	/^    HOGDescriptor hog;$/;"	m	class:FaceFilter	access:private
+FaceFilter::init	FaceFilter.cpp	/^bool FaceFilter::init( string path_of_svm_w, $/;"	f	class:FaceFilter	signature:( string path_of_svm_w, string path_of_svm_b)
+FaceFilter::init	FaceFilter.h	/^    bool init( string path_of_svm_w, string path_of_svm_b );$/;"	p	class:FaceFilter	access:public	signature:( string path_of_svm_w, string path_of_svm_b )
+FaceFilter::svm_b	FaceFilter.h	/^    Mat svm_b;$/;"	m	class:FaceFilter	access:private
+FaceFilter::svm_w	FaceFilter.h	/^    Mat svm_w;$/;"	m	class:FaceFilter	access:private
+FacedetWithFilter	FacedetWithFilter.cpp	/^FacedetWithFilter::FacedetWithFilter()$/;"	f	class:FacedetWithFilter	signature:()
+FacedetWithFilter	FacedetWithFilter.h	/^	FacedetWithFilter();$/;"	p	class:FacedetWithFilter	access:public	signature:()
+FacedetWithFilter	FacedetWithFilter.h	/^class FacedetWithFilter$/;"	c
+FacedetWithFilter::FacedetWithFilter	FacedetWithFilter.cpp	/^FacedetWithFilter::FacedetWithFilter()$/;"	f	class:FacedetWithFilter	signature:()
+FacedetWithFilter::FacedetWithFilter	FacedetWithFilter.h	/^	FacedetWithFilter();$/;"	p	class:FacedetWithFilter	access:public	signature:()
+FacedetWithFilter::appfinder	FacedetWithFilter.h	/^	unsigned char* appfinder;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::clean	FacedetWithFilter.cpp	/^bool FacedetWithFilter::clean()$/;"	f	class:FacedetWithFilter	signature:()
+FacedetWithFilter::clean	FacedetWithFilter.h	/^	bool clean();$/;"	p	class:FacedetWithFilter	access:public	signature:()
+FacedetWithFilter::color_score	FacedetWithFilter.h	/^	double color_score;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::detectAndFilter	FacedetWithFilter.cpp	/^bool FacedetWithFilter::detectAndFilter(const Mat &inputimage,   $/;"	f	class:FacedetWithFilter	signature:(const Mat &inputimage, vector<Rect> &passedfaces)
+FacedetWithFilter::detectAndFilter	FacedetWithFilter.h	/^	bool detectAndFilter( const Mat &inputimage,   $/;"	p	class:FacedetWithFilter	access:public	signature:( const Mat &inputimage, vector<Rect> &passedfaces)
+FacedetWithFilter::detectFace	FacedetWithFilter.cpp	/^bool FacedetWithFilter::detectFace( const Mat &inputimage, $/;"	f	class:FacedetWithFilter	signature:( const Mat &inputimage, vector<Rect> &detectedfaces)
+FacedetWithFilter::detectFace	FacedetWithFilter.h	/^	bool detectFace(const Mat &inputimage, $/;"	p	class:FacedetWithFilter	access:public	signature:(const Mat &inputimage, vector<Rect> &detectedfaces)
+FacedetWithFilter::f_filter	FacedetWithFilter.h	/^	FaceFilter f_filter;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::fecedet_confidence	FacedetWithFilter.h	/^	double  fecedet_confidence;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::filterFace	FacedetWithFilter.cpp	/^bool FacedetWithFilter::filterFace( vector<Rect> &infaces,$/;"	f	class:FacedetWithFilter	signature:( vector<Rect> &infaces, vector<Rect> &filtered_faces, const Mat &image)
+FacedetWithFilter::filterFace	FacedetWithFilter.h	/^	bool filterFace( vector<Rect> &infaces, $/;"	p	class:FacedetWithFilter	access:public	signature:( vector<Rect> &infaces, vector<Rect> &filtered_faces, const Mat &image)
+FacedetWithFilter::hog_score	FacedetWithFilter.h	/^	double hog_score;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::init	FacedetWithFilter.cpp	/^bool FacedetWithFilter::init( string path_of_svm_w,$/;"	f	class:FacedetWithFilter	signature:( string path_of_svm_w, string path_of_svm_b)
+FacedetWithFilter::init	FacedetWithFilter.h	/^	bool init(  string path_of_svm_w,$/;"	p	class:FacedetWithFilter	access:public	signature:( string path_of_svm_w, string path_of_svm_b)
+FacedetWithFilter::maxsize	FacedetWithFilter.h	/^	int		maxsize;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::minsize	FacedetWithFilter.h	/^	int		minsize;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::scalefacor	FacedetWithFilter.h	/^	double  scalefacor;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::setConfidenceParas	FacedetWithFilter.cpp	/^bool FacedetWithFilter::setConfidenceParas(	double det_confidence ,$/;"	f	class:FacedetWithFilter	signature:( double det_confidence , double color_filter_score , double hog_filter_score)
+FacedetWithFilter::setConfidenceParas	FacedetWithFilter.h	/^	bool setConfidenceParas(	double det_confidence = 4.0,$/;"	p	class:FacedetWithFilter	access:public	signature:( double det_confidence = 4.0, double color_filter_score = 0.3, double hog_filter_score = 0.1)
+FacedetWithFilter::setDetectionParas	FacedetWithFilter.cpp	/^bool FacedetWithFilter::setDetectionParas(int _minsize ,$/;"	f	class:FacedetWithFilter	signature:(int _minsize , int _maxsize , double _scalefactor , double _stridefactor)
+FacedetWithFilter::setDetectionParas	FacedetWithFilter.h	/^	bool setDetectionParas( int minsize = 40,$/;"	p	class:FacedetWithFilter	access:public	signature:( int minsize = 40, int maxsize = 90, double scalefactor = 1.2, double stridefactor = 0.2)
+FacedetWithFilter::stridefactor	FacedetWithFilter.h	/^	double  stridefactor;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::svm_b	FacedetWithFilter.h	/^	Mat svm_b;$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::svm_w	FacedetWithFilter.h	/^	Mat svm_w;	\/\/ hog检测后的svm参数，由于是线性，可直接提取出$/;"	m	class:FacedetWithFilter	access:private
+FacedetWithFilter::~FacedetWithFilter	FacedetWithFilter.cpp	/^FacedetWithFilter::~FacedetWithFilter()$/;"	f	class:FacedetWithFilter	signature:()
+FacedetWithFilter::~FacedetWithFilter	FacedetWithFilter.h	/^	~FacedetWithFilter();$/;"	p	class:FacedetWithFilter	access:public	signature:()
+HEX	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+HEX	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+ID_VOID_MAIN	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
+MAX	picort.cpp	39;"	d	file:
+MAXNDETECTIONS	FacedetWithFilter.cpp	/^	const int MAXNDETECTIONS =2048;$/;"	l
+MIN	picort.cpp	43;"	d	file:
+OTSU_ratio	faceRegion.hpp	/^double OTSU_ratio(IplImage* imgGauss)$/;"	f	signature:(IplImage* imgGauss)
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	212;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	224;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	230;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	233;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	239;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	248;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	257;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	263;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	266;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	272;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	275;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	281;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	287;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	223;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	226;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	241;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	250;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d	file:
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+TCbCr	faceRegion.hpp	/^struct TCbCr$/;"	s
+TCbCr::Cb	faceRegion.hpp	/^	double Cb;$/;"	m	struct:TCbCr	access:public
+TCbCr::Cr	faceRegion.hpp	/^	double Cr;$/;"	m	struct:TCbCr	access:public
+_FIXED_POINT_SCALE_	picort.cpp	/^static int _FIXED_POINT_SCALE_ = (1<<15);$/;"	v	file:
+_bintest	picort.cpp	/^	int _bintest(int tcode, int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)$/;"	f	signature:(int tcode, int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)
+a	picort.cpp	/^		int a[4096];$/;"	l
+appfinder	FacedetWithFilter.h	/^	unsigned char* appfinder;$/;"	m	class:FacedetWithFilter	access:private
+assign_image	main.cpp	/^		dlib::assign_image( img, input_im );$/;"	p	class:dlib	file:	signature:( img, input_im )
+basename	main.cpp	/^        string basename = fs::basename( s );$/;"	l
+bintest	picort.cpp	87;"	d	file:
+bintest	picort.cpp	92;"	d	file:
+bmean	faceRegion.hpp	/^	double bmean=117.4361;\/\/高斯模型参数$/;"	v
+brcov	faceRegion.hpp	/^	double brcov[2][2]={160.1301,12.1430,12.1430,299.4574} ;$/;"	v
+c	picort.cpp	/^			float r, c, dr, dc;$/;"	l
+c1	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
+c2	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
+cap	video_main.cpp	/^	VideoCapture cap(video_path);$/;"	p	file:	signature:(video_path)
+cc	picort.cpp	/^		int i, ncc, cc;$/;"	l
+cc	picort.cpp	/^		int idx, ncc, cc;$/;"	l
+ccdfs	picort.cpp	/^	void ccdfs(int a[], int i, float rs[], float cs[], float ss[], int n)$/;"	f	signature:(int a[], int i, float rs[], float cs[], float ss[], int n)
+classify_region	picort.cpp	/^	int classify_region(void* od, float* o, float r, float c, float s, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)$/;"	f	signature:(void* od, float* o, float r, float c, float s, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)
+clean	FaceFilter.h	/^    void clean();$/;"	p	class:FaceFilter	access:public	signature:()
+clean	FacedetWithFilter.cpp	/^bool FacedetWithFilter::clean()$/;"	f	class:FacedetWithFilter	signature:()
+clean	FacedetWithFilter.h	/^	bool clean();$/;"	p	class:FacedetWithFilter	access:public	signature:()
+cluster_detections	picort.cpp	/^	int cluster_detections(float rs[], float cs[], float ss[], float qs[], int n)$/;"	f	signature:(float rs[], float cs[], float ss[], float qs[], int n)
+cluster_detections	picort.h	/^int cluster_detections(float rs[], float cs[], float ss[], float qs[], int n);$/;"	p	signature:(float rs[], float cs[], float ss[], float qs[], int n)
+colorScore	FaceFilter.cpp	/^        double colorScore = getFaceRegionRatio(&img);$/;"	l
+color_score	FacedetWithFilter.h	/^	double color_score;$/;"	m	class:FacedetWithFilter	access:private
+compute	FaceFilter.cpp	/^    this->hog.compute( temp_img, des);$/;"	p	file:	signature:( temp_img, des)
+copyTo	main.cpp	/^		im.copyTo(cp1);$/;"	p	file:	signature:(cp1)
+copyTo	main.cpp	/^		im.copyTo(cp2);$/;"	p	file:	signature:(cp2)
+copyTo	main.cpp	/^		im.copyTo(cp3);$/;"	p	file:	signature:(cp3)
+cost	picort.cpp	/^		int cost, sint;$/;"	l
+countIsFace	faceRegion.hpp	/^	int countIsFace = 0;$/;"	l
+cp1	main.cpp	/^		Mat cp1,cp2,cp3;$/;"	l
+cp2	main.cpp	/^		Mat cp1,cp2,cp3;$/;"	l
+cp3	main.cpp	/^		Mat cp1,cp2,cp3;$/;"	l
+cs	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
+cv::groupRectangles	FacedetWithFilter.cpp	/^	cv::groupRectangles( detectedfaces, 1, 0.3);$/;"	p	class:cv	file:	signature:( detectedfaces, 1, 0.3)
+d	picort.cpp	/^		int d, idx;$/;"	l
+data	faceRegion.hpp	/^	uchar* data = (uchar*)frame->imageData;$/;"	l
+dc	picort.cpp	/^			float r, c, dr, dc;$/;"	l
+deltaMax	faceRegion.hpp	/^			deltaTmp, deltaMax = 0;$/;"	l
+deltaTmp	faceRegion.hpp	/^			deltaTmp, deltaMax = 0;$/;"	l
+des	FaceFilter.cpp	/^    vector<float> des;$/;"	l
+det_max_size	video_main.cpp	/^	int det_max_size = 400;$/;"	l
+det_min_size	video_main.cpp	/^	int det_min_size = 30;$/;"	l
+det_weight	FacedetWithFilter.cpp	/^	std::vector<double> det_weight;$/;"	l
+detectAndFilter	FacedetWithFilter.cpp	/^bool FacedetWithFilter::detectAndFilter(const Mat &inputimage,   $/;"	f	class:FacedetWithFilter	signature:(const Mat &inputimage, vector<Rect> &passedfaces)
+detectAndFilter	FacedetWithFilter.h	/^	bool detectAndFilter( const Mat &inputimage,   $/;"	p	class:FacedetWithFilter	access:public	signature:( const Mat &inputimage, vector<Rect> &passedfaces)
+detectAndFilter	main.cpp	/^        fff.detectAndFilter( im , faces);$/;"	p	file:	signature:( im , faces)
+detectFace	FacedetWithFilter.cpp	/^bool FacedetWithFilter::detectFace( const Mat &inputimage, $/;"	f	class:FacedetWithFilter	signature:( const Mat &inputimage, vector<Rect> &detectedfaces)
+detectFace	FacedetWithFilter.h	/^	bool detectFace(const Mat &inputimage, $/;"	p	class:FacedetWithFilter	access:public	signature:(const Mat &inputimage, vector<Rect> &detectedfaces)
+detectFace	main.cpp	/^		fff.detectFace(im , faces );$/;"	p	file:	signature:(im , faces )
+detectMultiScale	main.cpp	/^		face_cascade.detectMultiScale( im, faces2, scale_factor, 2, 0, Size(min_,min_), Size(max_,max_) );$/;"	p	file:	signature:( im, faces2, scale_factor, 2, 0, Size(min_,min_), Size(max_,max_) )
+detector	main.cpp	/^	dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();$/;"	l
+dets	main.cpp	/^        std::vector<dlib::rectangle> dets = detector(img);$/;"	l
+dlib::assign_image	main.cpp	/^		dlib::assign_image( img, input_im );$/;"	p	class:dlib	file:	signature:( img, input_im )
+dr	picort.cpp	/^			float r, c, dr, dc;$/;"	l
+end_it	main.cpp	/^	fs::directory_iterator end_it;$/;"	l
+endl	FaceFilter.cpp	/^			cout<<"filter because color "<<endl;$/;"	l
+endl	FaceFilter.cpp	/^		cout<<"filter because hog , less than "<<hogFilterThrehold<<endl;$/;"	l
+endl	FaceFilter.cpp	/^        cout<<"can not load the model "<<path_of_svm_b<<endl;$/;"	l
+endl	FaceFilter.cpp	/^        cout<<"can not load the model "<<path_of_svm_w<<endl;$/;"	l
+endl	FaceFilter.cpp	/^        cout<<"skipped the color filter step"<<endl;$/;"	l
+endl	FaceFilter.cpp	/^        cout<<"the color score is "<<colorScore<<endl;$/;"	l
+endl	FaceFilter.cpp	/^    cout<<"hog score is "<<final_score<<endl;$/;"	l
+endl	FacedetWithFilter.cpp	/^		cout<<"empty input faces"<<endl;$/;"	l
+endl	main.cpp	/^		std::cout<<"can not load the face model "<<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^		std::cout<<"input_path "<<input_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^		std::cout<<"input_path is not a directory "<<input_path<<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^		std::cout<<"time duration haarboost is "<<t\/getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^		std::cout<<"time duration in dlib is "<<t\/(double)cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^		std::cout<<"time duration pico det and filter is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^		std::cout<<"time duration pico det is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+endl	video_main.cpp	/^			cout<<"can not load the face model "<<face_cascade_name<<endl;$/;"	l
+endl	video_main.cpp	/^		cout<<"can not open video, exit "<<endl;$/;"	l
+endl	video_main.cpp	/^		cout<<"local counter is "<<local_counter<<endl;$/;"	l
+extname	main.cpp	/^		string extname  = fs::extension( *(file_iter) );$/;"	l
+f_filter	FacedetWithFilter.h	/^	FaceFilter f_filter;$/;"	m	class:FacedetWithFilter	access:private
+face_cascade	main.cpp	/^	CascadeClassifier face_cascade;$/;"	l
+face_cascade	video_main.cpp	/^		CascadeClassifier face_cascade;$/;"	l
+face_cascade_name	main.cpp	/^	string face_cascade_name = "..\/xintai.xml";$/;"	l
+face_cascade_name	video_main.cpp	/^		string face_cascade_name = "..\/xintai.xml";$/;"	l
+faces	FacedetWithFilter.cpp	/^	vector<Rect> faces;$/;"	l
+faces	main.cpp	/^		vector<Rect> faces;$/;"	l
+faces2	main.cpp	/^		vector<Rect> faces2;$/;"	l
+fecedet_confidence	FacedetWithFilter.h	/^	double  fecedet_confidence;$/;"	m	class:FacedetWithFilter	access:private
+ff	FacedetWithFilter.cpp	/^    FILE *ff = fopen("..\/facefinder_pure.ea","r");$/;"	l
+fff	main.cpp	/^	FacedetWithFilter fff;$/;"	l
+fff	video_main.cpp	/^		FacedetWithFilter fff;$/;"	l
+fframe	FacedetWithFilter.cpp	/^	const IplImage fframe = inputimage.operator _IplImage();$/;"	l
+filter	FaceFilter.cpp	/^bool FaceFilter::filter( const Mat &inputimage, $/;"	f	class:FaceFilter	signature:( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold)
+filter	FaceFilter.h	/^    bool filter( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold);$/;"	p	class:FaceFilter	access:public	signature:( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold)
+filter	faceRegion.hpp	/^void filter(double **source,int m_nWidth,int m_nHeight)$/;"	f	signature:(double **source,int m_nWidth,int m_nHeight)
+filterFace	FacedetWithFilter.cpp	/^bool FacedetWithFilter::filterFace( vector<Rect> &infaces,$/;"	f	class:FacedetWithFilter	signature:( vector<Rect> &infaces, vector<Rect> &filtered_faces, const Mat &image)
+filterFace	FacedetWithFilter.h	/^	bool filterFace( vector<Rect> &infaces, $/;"	p	class:FacedetWithFilter	access:public	signature:( vector<Rect> &infaces, vector<Rect> &filtered_faces, const Mat &image)
+final_score	FaceFilter.cpp	/^    double final_score = 0;$/;"	l
+find_connected_components	picort.cpp	/^	int find_connected_components(int a[], float rs[], float cs[], float ss[], int n)$/;"	f	signature:(int a[], float rs[], float cs[], float ss[], int n)
+find_objects	picort.cpp	/^	int find_objects(float ccwangle, float rs[], float cs[], float ss[], float qs[], int maxndetections,$/;"	f	signature:(float ccwangle, float rs[], float cs[], float ss[], float qs[], int maxndetections, void* od, void* pixels, int nrows, int ncols, int ldim, float scalefactor, float stridefactor, float minsize, float maxsize, int clusterdetections)
+find_objects	picort.h	/^int find_objects(float ccwangle, float rs[], float cs[], float ss[], float qs[], int maxndetections,$/;"	p	signature:(float ccwangle, float rs[], float cs[], float ss[], float qs[], int maxndetections, void* od, void* pixels, int nrows, int ncols, int ldim, float scalefactor, float stridefactor, float minsize, float maxsize, int clusterdetections)
+frame	FacedetWithFilter.cpp	/^	const IplImage *frame = &fframe;$/;"	l
+frame	video_main.cpp	/^		cap >> frame;$/;"	l
+frame	video_main.cpp	/^	Mat frame;$/;"	l
+frame_skip	video_main.cpp	/^	int frame_skip = 5;$/;"	l
+fs	FaceFilter.cpp	/^    FileStorage fs;$/;"	l
+getFaceRegionRatio	faceRegion.hpp	/^double getFaceRegionRatio( IplImage *inputImage )$/;"	f	signature:( IplImage *inputImage )
+get_dtree_output	picort.cpp	/^	float get_dtree_output(int8_t tree[], int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)$/;"	f	signature:(int8_t tree[], int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)
+get_dtree_size	picort.cpp	/^	int get_dtree_size(int8_t dtree[])$/;"	f	signature:(int8_t dtree[])
+get_overlap	picort.cpp	/^	float get_overlap(float r1, float c1, float s1, float r2, float c2, float s2)$/;"	f	signature:(float r1, float c1, float s1, float r2, float c2, float s2)
+gray	FacedetWithFilter.cpp	/^	IplImage* gray = 0;$/;"	l
+groupRectangles	FacedetWithFilter.cpp	/^	cv::groupRectangles( detectedfaces, 1, 0.3);$/;"	p	class:cv	file:	signature:( detectedfaces, 1, 0.3)
+height	faceRegion.hpp	/^	int height = frame->height;$/;"	l
+height_	main.cpp	/^			int height_ = dets[j].height();$/;"	l
+hog	FaceFilter.h	/^    HOGDescriptor hog;$/;"	m	class:FaceFilter	access:private
+hog_detector	video_main.cpp	/^		dlib::frontal_face_detector hog_detector = dlib::get_frontal_face_detector();$/;"	l
+hog_score	FacedetWithFilter.h	/^	double hog_score;$/;"	m	class:FacedetWithFilter	access:private
+i	FacedetWithFilter.cpp	/^	int i;$/;"	l
+i	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
+i	picort.cpp	/^			int i, k;$/;"	l
+i	picort.cpp	/^		int i, j;$/;"	l
+i	picort.cpp	/^		int i, ncc, cc;$/;"	l
+ic	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
+idx	picort.cpp	/^		int d, idx;$/;"	l
+idx	picort.cpp	/^		int idx, ncc, cc;$/;"	l
+im	main.cpp	/^		Mat im = imread( pathname );$/;"	l
+image_path	main.cpp	/^	string image_path = "\/home\/yuanyang\/workspace\/face_align_one_millisecond\/face_landmark_data\/lfpw\/trainset\/";$/;"	l
+img	FaceFilter.cpp	/^        IplImage img = IplImage(inputimage);$/;"	l
+img	main.cpp	/^		dlib::array2d<dlib::bgr_pixel> img;$/;"	l
+imgGauss	faceRegion.hpp	/^    IplImage *imgGauss = 0;$/;"	l
+imgTemp	faceRegion.hpp	/^    CvScalar imgTemp;$/;"	l
+info_arch	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+init	FaceFilter.cpp	/^bool FaceFilter::init( string path_of_svm_w, $/;"	f	class:FaceFilter	signature:( string path_of_svm_w, string path_of_svm_b)
+init	FaceFilter.h	/^    bool init( string path_of_svm_w, string path_of_svm_b );$/;"	p	class:FaceFilter	access:public	signature:( string path_of_svm_w, string path_of_svm_b )
+init	FacedetWithFilter.cpp	/^bool FacedetWithFilter::init( string path_of_svm_w,$/;"	f	class:FacedetWithFilter	signature:( string path_of_svm_w, string path_of_svm_b)
+init	FacedetWithFilter.h	/^	bool init(  string path_of_svm_w,$/;"	p	class:FacedetWithFilter	access:public	signature:( string path_of_svm_w, string path_of_svm_b)
+input_im	main.cpp	/^		dlib::cv_image<dlib::bgr_pixel> input_im(im);$/;"	p	file:	signature:(im)
+input_path	main.cpp	/^	fs::path input_path( image_path );$/;"	p	file:	signature:( image_path )
+ir	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
+isc	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
+isr	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
+j	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
+j	picort.cpp	/^		int i, j;$/;"	l
+j	picort.cpp	/^		int j;$/;"	l
+k	picort.cpp	/^			int i, k;$/;"	l
+ldim	FacedetWithFilter.cpp	/^	int nrows, ncols, ldim;$/;"	l
+left_	main.cpp	/^			int left_ = dets[j].left();$/;"	l
+likeliHood	faceRegion.hpp	/^IplImage* likeliHood(IplImage *pImg)$/;"	f	signature:(IplImage *pImg)
+loc	picort.cpp	/^		int loc;$/;"	l
+local_counter	video_main.cpp	/^	int local_counter = 0;$/;"	l
+m	faceRegion.hpp	/^	 int m;$/;"	l
+m_pLikeliHoodArray	faceRegion.hpp	/^    double **m_pLikeliHoodArray = new double*[pImg->height+1];$/;"	l
+main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	main.cpp	/^int main( int argc, char** argv)$/;"	f	signature:( int argc, char** argv)
+main	video_main.cpp	/^int main( int argc, char** argv)$/;"	f	signature:( int argc, char** argv)
+max	faceRegion.hpp	/^	double max = 0.0;$/;"	l
+max_	main.cpp	/^		int max_ = min( im.cols, im.rows);$/;"	l
+maxsize	FacedetWithFilter.h	/^	int		maxsize;$/;"	m	class:FacedetWithFilter	access:private
+min_	main.cpp	/^		int min_ = 50;$/;"	l
+minsize	FacedetWithFilter.h	/^	int		minsize;$/;"	m	class:FacedetWithFilter	access:private
+ncc	picort.cpp	/^		int i, ncc, cc;$/;"	l
+ncc	picort.cpp	/^		int idx, ncc, cc;$/;"	l
+ncols	FacedetWithFilter.cpp	/^	int nrows, ncols, ldim;$/;"	l
+ndetections	FacedetWithFilter.cpp	/^	int ndetections;$/;"	l
+ndetections	picort.cpp	/^		int ndetections;$/;"	l
+nrows	FacedetWithFilter.cpp	/^	int nrows, ncols, ldim;$/;"	l
+nstages	picort.cpp	/^		int32_t nstages;$/;"	l
+numtrees	picort.cpp	/^			int numtrees;$/;"	l
+open	FaceFilter.cpp	/^	fs.open( path_of_svm_w, FileStorage::READ);$/;"	p	file:	signature:( path_of_svm_w, FileStorage::READ)
+open	FaceFilter.cpp	/^    fs.open(path_of_svm_b, FileStorage::READ);$/;"	p	file:	signature:(path_of_svm_b, FileStorage::READ)
+otsu	faceRegion.hpp	/^	 CvScalar otsu;$/;"	l
+otsuThreshold	faceRegion.hpp	/^int otsuThreshold(IplImage *frame)$/;"	f	signature:(IplImage *frame)
+overc	picort.cpp	/^		float overr, overc;$/;"	l
+overr	picort.cpp	/^		float overr, overc;$/;"	l
+p	picort.cpp	/^		int8_t* p = (int8_t*)&tcode;$/;"	l
+pImgH	faceRegion.hpp	/^	int pImgH=pImg->height;$/;"	l
+pImgW	faceRegion.hpp	/^	int pImgW=pImg->width;$/;"	l
+pathname	main.cpp	/^        string pathname = file_iter->path().string();$/;"	l
+pixelCount	faceRegion.hpp	/^	int pixelCount[256];$/;"	l
+pixelPro	faceRegion.hpp	/^	float pixelPro[256];$/;"	l
+pixelSum	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
+pixels	FacedetWithFilter.cpp	/^	unsigned char* pixels;$/;"	l
+ptr	picort.cpp	/^		int8_t* ptr;$/;"	l
+push_back	FacedetWithFilter.cpp	/^			det_weight.push_back( qs[i] );$/;"	p	file:	signature:( qs[i] )
+push_back	FacedetWithFilter.cpp	/^			detectedfaces.push_back( facerec);$/;"	p	file:	signature:( facerec)
+push_back	FacedetWithFilter.cpp	/^			filtered_faces.push_back( infaces[c]);$/;"	p	file:	signature:( infaces[c])
+push_back	FacedetWithFilter.cpp	/^		tmp_hold.push_back(tmp_c);$/;"	p	file:	signature:(tmp_c)
+q	picort.cpp	/^					float q;$/;"	l
+qs	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
+r	picort.cpp	/^			float r, c, dr, dc;$/;"	l
+r1	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
+r2	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
+ratio	faceRegion.hpp	/^	 double ratio = countIsFace\/(1.0*imgGauss->height*imgGauss->width);$/;"	l
+ratio	faceRegion.hpp	/^    double ratio = OTSU_ratio(imgGauss);$/;"	l
+release	FaceFilter.cpp	/^    fs.release();$/;"	p	file:	signature:()
+require	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^  int require = 0;$/;"	l
+require	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  int require = 0;$/;"	l
+res	faceRegion.hpp	/^	struct TCbCr res;$/;"	l
+rmean	faceRegion.hpp	/^	double rmean=156.5599;$/;"	v
+rs	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
+s	main.cpp	/^		fs::path s = *(file_iter);$/;"	l
+s	picort.cpp	/^		float s;$/;"	l
+scale_factor	main.cpp	/^		double scale_factor = 1.05;$/;"	l
+scale_factor	video_main.cpp	/^	double scale_factor = 1.1;$/;"	l
+scalefacor	FacedetWithFilter.h	/^	double  scalefacor;$/;"	m	class:FacedetWithFilter	access:private
+setConfidenceParas	FacedetWithFilter.cpp	/^bool FacedetWithFilter::setConfidenceParas(	double det_confidence ,$/;"	f	class:FacedetWithFilter	signature:( double det_confidence , double color_filter_score , double hog_filter_score)
+setConfidenceParas	FacedetWithFilter.h	/^	bool setConfidenceParas(	double det_confidence = 4.0,$/;"	p	class:FacedetWithFilter	access:public	signature:( double det_confidence = 4.0, double color_filter_score = 0.3, double hog_filter_score = 0.1)
+setDetectionParas	FacedetWithFilter.cpp	/^bool FacedetWithFilter::setDetectionParas(int _minsize ,$/;"	f	class:FacedetWithFilter	signature:(int _minsize , int _maxsize , double _scalefactor , double _stridefactor)
+setDetectionParas	FacedetWithFilter.h	/^	bool setDetectionParas( int minsize = 40,$/;"	p	class:FacedetWithFilter	access:public	signature:( int minsize = 40, int maxsize = 90, double scalefactor = 1.2, double stridefactor = 0.2)
+setDetectionParas	main.cpp	/^        fff.setDetectionParas( min_ , max_ , scale_factor, 0.1);	\/\/艗矛虏芒碌脛虏脦脢媒$/;"	p	file:	signature:( min_ , max_ , scale_factor, 0.1)
+sint	picort.cpp	/^		int cost, sint;$/;"	l
+ss	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
+std::endl	main.cpp	/^		std::cout<<"can not load the face model "<<std::endl;$/;"	m	class:std	file:
+std::endl	main.cpp	/^		std::cout<<"input_path "<<input_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+std::endl	main.cpp	/^		std::cout<<"input_path is not a directory "<<input_path<<std::endl;$/;"	m	class:std	file:
+std::endl	main.cpp	/^		std::cout<<"time duration haarboost is "<<t\/getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+std::endl	main.cpp	/^		std::cout<<"time duration in dlib is "<<t\/(double)cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+std::endl	main.cpp	/^		std::cout<<"time duration pico det and filter is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+std::endl	main.cpp	/^		std::cout<<"time duration pico det is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+stridefactor	FacedetWithFilter.h	/^	double  stridefactor;$/;"	m	class:FacedetWithFilter	access:private
+sumcs	picort.cpp	/^			float sumqs=0.0f, sumrs=0.0f, sumcs=0.0f, sumss=0.0f;$/;"	l
+sumqs	picort.cpp	/^			float sumqs=0.0f, sumrs=0.0f, sumcs=0.0f, sumss=0.0f;$/;"	l
+sumrs	picort.cpp	/^			float sumqs=0.0f, sumrs=0.0f, sumcs=0.0f, sumss=0.0f;$/;"	l
+sumss	picort.cpp	/^			float sumqs=0.0f, sumrs=0.0f, sumcs=0.0f, sumss=0.0f;$/;"	l
+svm_b	FaceFilter.h	/^    Mat svm_b;$/;"	m	class:FaceFilter	access:private
+svm_b	FacedetWithFilter.h	/^	Mat svm_b;$/;"	m	class:FacedetWithFilter	access:private
+svm_w	FaceFilter.h	/^    Mat svm_w;$/;"	m	class:FaceFilter	access:private
+svm_w	FacedetWithFilter.h	/^	Mat svm_w;	\/\/ hog检测后的svm参数，由于是线性，可直接提取出$/;"	m	class:FacedetWithFilter	access:private
+t	faceRegion.hpp	/^			  double t;$/;"	l
+t	main.cpp	/^		double t = cv::getTickCount();$/;"	l
+t	picort.cpp	/^					int t;$/;"	l
+t_b	faceRegion.hpp	/^            int t_b = ((uchar *)(pImg->imageData + i*pImg->widthStep))[j*pImg->nChannels + 0];$/;"	l
+t_g	faceRegion.hpp	/^            int t_g = ((uchar *)(pImg->imageData + i*pImg->widthStep))[j*pImg->nChannels + 1];$/;"	l
+t_r	faceRegion.hpp	/^            int t_r = ((uchar *)(pImg->imageData + i*pImg->widthStep))[j*pImg->nChannels + 2];$/;"	l
+tc	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
+tcodes	picort.cpp	/^		int32_t* tcodes;$/;"	l
+tdepth	picort.cpp	/^		int32_t tdepth;$/;"	l
+temp	faceRegion.hpp	/^	double **temp;$/;"	l
+temp	faceRegion.hpp	/^            TCbCr temp = CalCbCr(t_b,t_g,t_r);$/;"	l
+temp_img	FaceFilter.cpp	/^    Mat temp_img;$/;"	l
+threValue	faceRegion.hpp	/^     int threValue;$/;"	l
+threshold	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
+threshold	picort.cpp	/^		float threshold;$/;"	l
+tlut	picort.cpp	/^		float* tlut;$/;"	l
+tmp_c	FacedetWithFilter.cpp	/^	unsigned int  tmp_c;$/;"	l
+tmp_hold	FacedetWithFilter.cpp	/^	vector<unsigned char> tmp_hold;         \/\/ 纯文本文件，第一次读取的时候也无法知道具体的长度$/;"	l
+top_	main.cpp	/^			int top_ = dets[j].top();$/;"	l
+tr	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
+tsc	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
+tsr	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
+u	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+u0	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+u0tmp	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+u1	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+u1tmp	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+video_path	video_main.cpp	/^	string video_path =  string(argv[1]);$/;"	l
+w0	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+w1	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+width	faceRegion.hpp	/^    int width = frame->width;$/;"	l
+width_	main.cpp	/^			int width_ = dets[j].width();$/;"	l
+x	faceRegion.hpp	/^	int x,y;$/;"	l
+x1	faceRegion.hpp	/^			double x1,x2;    $/;"	l
+x2	faceRegion.hpp	/^			double x1,x2;    $/;"	l
+y	faceRegion.hpp	/^	int x,y;$/;"	l
+~FacedetWithFilter	FacedetWithFilter.cpp	/^FacedetWithFilter::~FacedetWithFilter()$/;"	f	class:FacedetWithFilter	signature:()
+~FacedetWithFilter	FacedetWithFilter.h	/^	~FacedetWithFilter();$/;"	p	class:FacedetWithFilter	access:public	signature:()
