@@ -20,25 +20,32 @@
 
 #include "FacedetWithFilter.h"
 
+#ifndef TRACE
+#define tcout 0 && cout
+#else
+#define tcout cout
+#endif
+
+
 using namespace cv;
 using namespace std;
 
 
 namespace fs = boost::filesystem;
 
+
 bool isBoxInValid( const Mat &img, Rect bbox )
 {
 	/*  out of the image */
 	if( bbox.x < 0 || bbox.y < 0 )
 	{
-		cout<<"bbox.x is "<<bbox.x<<" bbox.width is "<<bbox.width<<endl;
 		return false;
 	}
 	if( bbox.x+bbox.width > img.cols || bbox.y+bbox.height > img.rows )
 	{
-		cout<<"bbox.x is "<<bbox.x<<" bbox.width is "<<bbox.width<<endl;
 		return false;
 	}
+
 	return true;
 }
 
@@ -92,6 +99,9 @@ void mergeAllTheFaces( const Mat &img,
 	for( int c=0;c<haar_faces.size();c++)
 	{
 		Rect newRect = haar_faces[c];
+		if(!isBoxInValid(img, newRect))
+			continue;
+
 		bool already_have = false;
 		for( int j=0;j<merge_faces.size();j++)
 		{
@@ -125,6 +135,10 @@ void mergeAllTheFaces( const Mat &img,
 	for( int c=0;c<hog_faces.size();c++)
 	{
 		Rect newRect = hog_faces[c];
+
+		if(!isBoxInValid(img, newRect))
+			continue;
+
 		bool already_have = false;
 		for( int j=0;j<merge_faces.size();j++)
 		{
@@ -171,7 +185,7 @@ int main( int argc, char** argv)
 	VideoCapture cap(video_path);
 	if(!cap.isOpened())
 	{
-		cout<<"can not open video, exit "<<endl;
+		tcout<<"can not open video, exit "<<endl;
 		return -1;
 	}
 
@@ -182,7 +196,7 @@ int main( int argc, char** argv)
 	CascadeClassifier face_cascade;
 	if(!face_cascade.load( face_cascade_name ) )
 	{
-		cout<<"can not load the face model "<<face_cascade_name<<endl;
+		tcout<<"can not load the face model "<<face_cascade_name<<endl;
 		return -1;
 	}
 
@@ -202,6 +216,7 @@ int main( int argc, char** argv)
 	{
 		/* input image */
 		cap >> frame;
+	//	frame = imread("../result/metro_01-2859.jpg");
 	//	resize(frame, frame, Size(0,0),0.6,0.6);
 
 		/*  header used by dlib */
@@ -215,9 +230,10 @@ int main( int argc, char** argv)
 		local_counter = 0;
 		
 		frame_counter++;
+		cout<<"processing frame number "<<frame_counter<<endl;
 
 		/* 上次检测在这一帧中断，从这里开始 */
-		if( frame_counter < 1720 )
+		if( frame_counter < 2859 )
 			continue;
 
 		/* 检测人脸 */
@@ -248,29 +264,29 @@ int main( int argc, char** argv)
 		Mat show; frame.copyTo(show);
 		for( int c=0;c<faces_haar.size();c++)
 		{
-			cout<<"faces_haar: rect is "<<faces_haar[c]<<endl;
+			tcout<<"faces_haar: rect is "<<faces_haar[c]<<endl;
 			rectangle( show, faces_haar[c] , Scalar(0,0,255));
 		}
 		for( int c=0;c<faces_ff.size();c++)
 		{
-			cout<<"faces_ff: rect is "<<faces_ff[c]<<endl;
+			tcout<<"faces_ff: rect is "<<faces_ff[c]<<endl;
 			rectangle( show, faces_ff[c] , Scalar(0,255,0));
 		}
 		for( int c=0;c<faces_hog.size();c++)
 		{
-			cout<<"faces_hog: rect is "<<faces_hog[c]<<endl;
+			tcout<<"faces_hog: rect is "<<faces_hog[c]<<endl;
 			rectangle( show, faces_hog[c] , Scalar(255,0,0));
 		}
 		for( int c=0;c<merge_faces.size();c++)
 		{
-			cout<<"merge_face: rect is "<<merge_faces[c]<<endl;
+			tcout<<"merge_face: rect is "<<merge_faces[c]<<endl;
 			rectangle( show, merge_faces[c] , Scalar(255,255,255));
 		}
 		
-		cout<<"result: haar \t"<<faces_haar.size()<<" detected "<<endl;
-		cout<<"result: ff   \t"<<faces_ff.size()<<" detected "<<endl;
-		cout<<"result: hog  \t"<<faces_hog.size()<<" detected "<<endl;
-		cout<<"result: merge \t"<<merge_faces.size()<<" detected "<<endl;
+		0 && tcout<<"result: haar \t"<<faces_haar.size()<<" detected "<<endl;
+		tcout<<"result: ff   \t"<<faces_ff.size()<<" detected "<<endl;
+		tcout<<"result: hog  \t"<<faces_hog.size()<<" detected "<<endl;
+		tcout<<"result: merge \t"<<merge_faces.size()<<" detected "<<endl;
 
 		if(merge_faces.size() ==0)
 			continue;
@@ -280,7 +296,7 @@ int main( int argc, char** argv)
 		/* 1  图像 */
 		stringstream ss; ss<<frame_counter; string frame_string; ss>>frame_string;
 		string image_file_name = video_name + "-" + frame_string+".jpg";
-		cout<<"image file name is "<<image_file_name<<endl;
+		tcout<<"image file name is "<<image_file_name<<endl;
 		imwrite( result_path+image_file_name, frame );
 
 		/* 2 xml */
