@@ -30,9 +30,15 @@ bool isBoxInValid( const Mat &img, Rect bbox )
 {
 	/*  out of the image */
 	if( bbox.x < 0 || bbox.y < 0 )
+	{
+		cout<<"bbox.x is "<<bbox.x<<" bbox.width is "<<bbox.width<<endl;
 		return false;
+	}
 	if( bbox.x+bbox.width > img.cols || bbox.y+bbox.height > img.rows )
+	{
+		cout<<"bbox.x is "<<bbox.x<<" bbox.width is "<<bbox.width<<endl;
 		return false;
+	}
 	return true;
 }
 
@@ -126,7 +132,7 @@ void mergeAllTheFaces( const Mat &img,
 		}
 
 		/* check */
-		if(!already_have)
+		if(!already_have && isBoxInValid(img, newRect) )
 			merge_faces.push_back( newRect);
 	}
 
