@@ -20,7 +20,6 @@
 
 #include "FacedetWithFilter.h"
 
-#define TRACE
 
 #ifndef TRACE
 #define tcout 0 && cout
@@ -218,8 +217,16 @@ int main( int argc, char** argv)
 	{
 		/* input image */
 		cap >> frame;
+		if( frame.empty())
+		{
+			cout<<"end of the video, processed "<<frame_counter<<" frames "<<endl;
+		}
 		frame_counter++;
 		cout<<"processing frame number "<<frame_counter<<endl;
+
+		/* 上次检测在这一帧中断，从这里开始 */
+		if( frame_counter < 30915 )
+			continue;
 
 	//	frame = imread("../result/metro_01-5157.jpg");
 	//	resize(frame, frame, Size(0,0),0.6,0.6);
@@ -233,12 +240,6 @@ int main( int argc, char** argv)
 		if(!(local_counter++ == frame_skip))
 			continue;
 		local_counter = 0;
-		
-
-
-		/* 上次检测在这一帧中断，从这里开始 */
-		//if( frame_counter < 2859 )
-		//	continue;
 
 		/* 检测人脸 */
 		vector<Rect> faces_haar;

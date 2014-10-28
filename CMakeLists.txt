@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 2.6)
 project(det_face)
 
+
+option(DEFINE_TRACE "output or not" ON)
+if(DEFINE_TRACE)
+	add_definitions(-DTRACE)
+endif(DEFINE_TRACE)
+
 find_package(OpenCV REQUIRED)
 find_package(Boost COMPONENTS system filesystem REQUIRED)
 add_executable( detFaceInVideo video_main.cpp)
