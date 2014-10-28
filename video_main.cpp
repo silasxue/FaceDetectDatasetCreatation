@@ -103,6 +103,14 @@ void mergeAllTheFaces( const Mat &img,
 				merge_faces[j].y = (merge_faces[j].y+newRect.y)/2;
 				merge_faces[j].width = (merge_faces[j].width+newRect.width)/2;
 				merge_faces[j].height = (merge_faces[j].height+newRect.height)/2;
+
+				/* new face rect maybe out of the img, adjust it then .. */
+				if( merge_faces[j].x + merge_faces[j].width > img.cols )
+					merge_faces[j].width = img.cols - merge_faces[j].x - 1;
+
+				if( merge_faces[j].y + merge_faces[j].height > img.rows )
+					merge_faces[j].height = img.rows - merge_faces[j].y - 1;
+
 				break;
 			}
 		}
@@ -127,6 +135,14 @@ void mergeAllTheFaces( const Mat &img,
 				merge_faces[j].y = (merge_faces[j].y+newRect.y)/2;
 				merge_faces[j].width = (merge_faces[j].width+newRect.width)/2;
 				merge_faces[j].height = (merge_faces[j].height+newRect.height)/2;
+
+				/* new face rect maybe out of the img, adjust it then .. */
+				if( merge_faces[j].x + merge_faces[j].width > img.cols )
+					merge_faces[j].width = img.cols - merge_faces[j].x - 1;
+
+				if( merge_faces[j].y + merge_faces[j].height > img.rows )
+					merge_faces[j].height = img.rows - merge_faces[j].y - 1;
+
 				break;
 			}
 		}
@@ -198,8 +214,11 @@ int main( int argc, char** argv)
 			continue;
 		local_counter = 0;
 		
-		
 		frame_counter++;
+
+		/* 上次检测在这一帧中断，从这里开始 */
+		if( frame_counter < 1720 )
+			continue;
 
 		/* 检测人脸 */
 		vector<Rect> faces_haar;
@@ -228,13 +247,25 @@ int main( int argc, char** argv)
 		/* draw */
 		Mat show; frame.copyTo(show);
 		for( int c=0;c<faces_haar.size();c++)
+		{
+			cout<<"faces_haar: rect is "<<faces_haar[c]<<endl;
 			rectangle( show, faces_haar[c] , Scalar(0,0,255));
+		}
 		for( int c=0;c<faces_ff.size();c++)
+		{
+			cout<<"faces_ff: rect is "<<faces_ff[c]<<endl;
 			rectangle( show, faces_ff[c] , Scalar(0,255,0));
+		}
 		for( int c=0;c<faces_hog.size();c++)
+		{
+			cout<<"faces_hog: rect is "<<faces_hog[c]<<endl;
 			rectangle( show, faces_hog[c] , Scalar(255,0,0));
+		}
 		for( int c=0;c<merge_faces.size();c++)
+		{
+			cout<<"merge_face: rect is "<<merge_faces[c]<<endl;
 			rectangle( show, merge_faces[c] , Scalar(255,255,255));
+		}
 		
 		cout<<"result: haar \t"<<faces_haar.size()<<" detected "<<endl;
 		cout<<"result: ff   \t"<<faces_ff.size()<<" detected "<<endl;
