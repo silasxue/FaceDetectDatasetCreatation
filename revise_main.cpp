@@ -14,6 +14,17 @@ using namespace cv;
 
 namespace fs = boost::filesystem;
 
+void deleteById( Mat &ori, int id,  Mat &output)
+{
+	for ( int c=0;c<ori.rows ;c++ ) 
+	{
+		if(id == ori.at<int>(c,0))
+			continue;
+		output.push_back( ori.row(c));
+	}
+}
+
+
 void parse_name( const string &full_name,
 				 string &file_name, 
 				 string &faceid)
@@ -76,7 +87,7 @@ main ( int argc, char *argv[] )
         string pathname = file_iter->path().string();
 		string basename = fs::basename(s);
 		string extname  = fs::extension(s);
-		cout<<"basename is "<<basename<<" with extension "<<extname<<endl;
+		cout<<"reading in file' basename is "<<basename<<" with extension "<<extname<<endl;
 		if( extname != ".jpg")
 		{
 			cout<<"skip file "<<pathname<<endl;
@@ -85,7 +96,6 @@ main ( int argc, char *argv[] )
 
 		string faceid, filename;
 		parse_name(basename, filename, faceid);
-		cout<<"filename is "<<filename<<" with face id "<<faceid<<endl;
 
 		/* read the yml file  */
 		string yml_file_ = data_path_+filename+".yml";
@@ -105,25 +115,25 @@ main ( int argc, char *argv[] )
 		}
 		
 		int number_of_face;
-		vector<Rect> facerects;
+		Mat faceMat;
 		ffs["number_of_face"]>>number_of_face;
-		ffs["faces"]>>facerects;
+		ffs["faces"]>>faceMat;
 		ffs.release();
 
 		/*  删除 faceid 对应的那一个 */
-		cout<<"delete face "<<faceid<<endl;
 		stringstream ss;ss<<faceid;int id_face;ss>>id_face;
-		facerects.erase( facerects.begin()+id_face );
+		Mat newFaceMat;
+		deleteById( faceMat, id_face, newFaceMat);
 		number_of_face--;
 
 		/* 删除原来的yml文件, 写入新的yml*/
 		fs::remove(yml_file);
 		fs::remove(pathname);							/* 注意这里也删除拉原来的错误图片 避免一个图片用两次 造成错误 */
 		ffs.open( yml_file_, FileStorage::WRITE);
-		cout<<"write back file "<<yml_file_<<endl;
 		ffs<<"number_of_face"<<number_of_face;
-		ffs<<"faces"<<facerects;
+		ffs<<"faces"<<newFaceMat;
 		ffs.release();
+
 	}
 
 

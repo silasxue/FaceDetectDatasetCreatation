@@ -26,15 +26,17 @@ using namespace std;
 
 namespace fs = boost::filesystem;
 
+
 void fromVectorToMat( vector<Rect> faceRects, Mat &f)
 {
-	f = Mat::zeros( faceRects.size(), 4, CV_32S);
+	f = Mat::zeros( faceRects.size(), 5, CV_32S);
 	for( int c=0;c<faceRects.size();c++)
 	{
-		f.at<int>(c,0) = faceRects[c].x;
-		f.at<int>(c,1) = faceRects[c].y;
-		f.at<int>(c,2) = faceRects[c].width;
-		f.at<int>(c,3) = faceRects[c].height;
+		f.at<int>(c,0) = c;
+		f.at<int>(c,1) = faceRects[c].x;
+		f.at<int>(c,2) = faceRects[c].y;
+		f.at<int>(c,3) = faceRects[c].width;
+		f.at<int>(c,4) = faceRects[c].height;
 	}
 }
 
@@ -166,6 +168,7 @@ int main( int argc, char** argv)
 	{
 		/* input image */
 		cap >> frame;
+	//	resize(frame, frame, Size(0,0),0.6,0.6);
 
 		/*  header used by dlib */
 		dlib::cv_image<dlib::bgr_pixel> input_im(frame);
@@ -236,12 +239,13 @@ int main( int argc, char** argv)
 		FileStorage ffs( result_path+video_name + "-" + frame_string+".yml", FileStorage::WRITE);
 		int number_of_detected_faces = merge_faces.size();
 		ffs<<"number_of_face"<<number_of_detected_faces;
-		Mat facerects;
-		//fromVectorToMat( merge_faces, facerects);
-		ffs<<"faces"<<merge_faces;
+		Mat faceMat;
+		fromVectorToMat( merge_faces, faceMat );
+		ffs<<"faces"<<faceMat;
 		ffs.release();
 
 
+		/* 保存每一张人脸，以供以后查看误检 */
 		for( int c=0; c<merge_faces.size();c++)
 		{
 			/* image name video_name-framecounter.jpg */

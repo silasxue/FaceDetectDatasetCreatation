@@ -14,6 +14,16 @@ using namespace cv;
 
 namespace fs = boost::filesystem;
 
+
+void fromMatToVector( const Mat &inputMat, vector<Rect> &faceRects )
+{
+	for ( int c=0;c<inputMat.rows ;c++ )
+	{
+		faceRects.push_back( Rect( inputMat.at<int>(c,1), inputMat.at<int>(c,2),inputMat.at<int>(c,3),inputMat.at<int>(c,4)));
+	}
+	
+}
+
 void parse_name( const string &full_name,
 				 string &file_name, 
 				 string &faceid)
@@ -91,15 +101,21 @@ main ( int argc, char *argv[] )
 		
 		int number_of_face;
 		vector<Rect> facerects;
+		Mat faceMat;
 		ffs["number_of_face"]>>number_of_face;
-		ffs["faces"]>>facerects;
+		ffs["faces"]>>faceMat;
+		fromMatToVector(faceMat, facerects);
 		ffs.release();
 
 		for(int c=0;c<facerects.size();c++)
 		{
-			rectangle( input_image, facerects[c], Scalar(0,0,255));
+			rectangle( input_image, facerects[c], Scalar(0,255,255), 3);
 		}
-		imshow("result", input_image);
+
+		/* show */
+		resize( input_image ,input_image, Size(0,0), 0.6, 0.6);
+		putText( input_image, "image name:"+basename, Point(40,40),FONT_HERSHEY_COMPLEX, 0.8, Scalar(0,0,0), 2 );
+		imshow( "result", input_image);
 		waitKey(0);
 
 	}
