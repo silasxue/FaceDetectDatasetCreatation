@@ -162,7 +162,7 @@ int main( int argc, char** argv)
 	dlib::frontal_face_detector hog_detector = dlib::get_frontal_face_detector();
 		
 	Mat frame;
-	int local_counter = 0;                      /* 抽桢 */
+	int local_counter = 3;                      /* 抽桢 */
 	int frame_counter = 0;                      /* 计数 */
 	for(;;)
 	{
@@ -255,8 +255,8 @@ int main( int argc, char** argv)
 
 		}
 
-		imshow("inputFrame",show);
-		waitKey(0);
+		//imshow("inputFrame",show);
+		//waitKey(0);
 
 	}
 }
