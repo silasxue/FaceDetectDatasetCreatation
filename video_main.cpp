@@ -20,6 +20,8 @@
 
 #include "FacedetWithFilter.h"
 
+#define TRACE
+
 #ifndef TRACE
 #define tcout 0 && cout
 #else
@@ -177,7 +179,8 @@ int main( int argc, char** argv)
 
 	string result_path = "../result/";
 	string face_rec_path = "../face_recs/";
-	int frame_skip = 5;
+	int frame_skip = 25;
+	int frame_counter = 0;                      /* 计数 */
 	int det_min_size = 30;
 	int det_max_size = 400;
 	double scale_factor = 1.05;
@@ -210,13 +213,15 @@ int main( int argc, char** argv)
 	dlib::frontal_face_detector hog_detector = dlib::get_frontal_face_detector();
 		
 	Mat frame;
-	int local_counter = 3;                      /* 抽桢 */
-	int frame_counter = 0;                      /* 计数 */
+	int local_counter = 0;              
 	for(;;)
 	{
 		/* input image */
 		cap >> frame;
-	//	frame = imread("../result/metro_01-2859.jpg");
+		frame_counter++;
+		cout<<"processing frame number "<<frame_counter<<endl;
+
+	//	frame = imread("../result/metro_01-5157.jpg");
 	//	resize(frame, frame, Size(0,0),0.6,0.6);
 
 		/*  header used by dlib */
@@ -229,12 +234,11 @@ int main( int argc, char** argv)
 			continue;
 		local_counter = 0;
 		
-		frame_counter++;
-		cout<<"processing frame number "<<frame_counter<<endl;
+
 
 		/* 上次检测在这一帧中断，从这里开始 */
-		if( frame_counter < 2859 )
-			continue;
+		//if( frame_counter < 2859 )
+		//	continue;
 
 		/* 检测人脸 */
 		vector<Rect> faces_haar;
@@ -292,8 +296,6 @@ int main( int argc, char** argv)
 			continue;
 
 		/*  保存检测结果 1 图像 2 xml 3 人脸截图（用于纠错）*/
-
-		/* 1  图像 */
 		stringstream ss; ss<<frame_counter; string frame_string; ss>>frame_string;
 		string image_file_name = video_name + "-" + frame_string+".jpg";
 		tcout<<"image file name is "<<image_file_name<<endl;
