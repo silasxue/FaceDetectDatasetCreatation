@@ -26,6 +26,17 @@ using namespace std;
 
 namespace fs = boost::filesystem;
 
+bool isBoxInValid( const Mat &img, Rect bbox )
+{
+	/*  out of the image */
+	if( bbox.x < 0 || bbox.y < 0 )
+		return false;
+	if( bbox.x+bbox.width > img.cols || bbox.y+bbox.height > img.rows )
+		return false;
+	return true;
+}
+
+
 
 void fromVectorToMat( vector<Rect> faceRects, Mat &f)
 {
@@ -63,7 +74,8 @@ bool isSameTarget( Rect r1, Rect r2)
 	return true;
 }
 
-void mergeAllTheFaces( vector<Rect> &pico_faces,
+void mergeAllTheFaces( const Mat &img,
+					   vector<Rect> &pico_faces,
 					   vector<Rect> &haar_faces,
 					   vector<Rect> &hog_faces,
 					   vector<Rect> &merge_faces)
@@ -90,7 +102,7 @@ void mergeAllTheFaces( vector<Rect> &pico_faces,
 		}
 
 		/* check */
-		if(!already_have)
+		if(!already_have && isBoxInValid(img, newRect))
 			merge_faces.push_back( newRect);
 	}
 
@@ -176,7 +188,6 @@ int main( int argc, char** argv)
 		dlib::assign_image( dlib_frame, input_im );
 
 		/* 抽桢 */
-		cout<<"local counter is "<<local_counter<<endl;
 		if(!(local_counter++ == frame_skip))
 			continue;
 		local_counter = 0;
@@ -206,7 +217,7 @@ int main( int argc, char** argv)
 
 		/* 融合结果 */
 		vector<Rect> merge_faces;
-		mergeAllTheFaces( faces_ff, faces_haar, faces_hog, merge_faces );
+		mergeAllTheFaces( frame, faces_ff, faces_haar, faces_hog, merge_faces );
 
 		/* draw */
 		Mat show; frame.copyTo(show);

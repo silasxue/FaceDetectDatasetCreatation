@@ -58,7 +58,6 @@ bool FaceFilter::filter( const Mat &inputimage,
         IplImage img = IplImage(inputimage);
         double colorScore = getFaceRegionRatio(&img);
         // can not pass the color region test
-        cout<<"the color score is "<<colorScore<<endl;
         if(colorScore < faceRegionThrehold)
 		{
 			cout<<"filter because color "<<endl;
@@ -93,7 +92,6 @@ bool FaceFilter::filter( const Mat &inputimage,
     final_score += svm_b.at<double>(0,0);
 
   
-    cout<<"hog score is "<<final_score<<endl;
     if(final_score < hogFilterThrehold)
 	{
 		cout<<"filter because hog , less than "<<hogFilterThrehold<<endl;
