@@ -87,7 +87,7 @@ main ( int argc, char *argv[] )
         string pathname = file_iter->path().string();
 		string basename = fs::basename(s);
 		string extname  = fs::extension(s);
-		cout<<"reading in file' basename is "<<basename<<" with extension "<<extname<<endl;
+		cout<<"processing "<<basename<<" with extension "<<extname<<endl;
 		if( extname != ".jpg")
 		{
 			cout<<"skip file "<<pathname<<endl;

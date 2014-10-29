@@ -72,10 +72,9 @@ main ( int argc, char *argv[] )
         string pathname = file_iter->path().string();
 		string basename = fs::basename(s);
 		string extname  = fs::extension(s);
-		cout<<"basename is "<<basename<<" with extension "<<extname<<endl;
+
 		if( extname != ".yml")
 		{
-			cout<<"skip file "<<pathname<<endl;
 			continue;
 		}
 
@@ -102,6 +101,8 @@ main ( int argc, char *argv[] )
 
 		}
 		
+		cout<<"processing file "<<img_file_<<endl;
+
 		int number_of_face;
 		vector<Rect> facerects;
 		Mat faceMat;
@@ -112,6 +113,7 @@ main ( int argc, char *argv[] )
 		/* 删除那些不包含人脸的图像 */
 		if(removeTheNoFaceImage && facerects.size()==0)
 		{
+			cout<<"delete file "<<img_file_<<endl;
 			fs::remove( yml_file);
 			fs::remove( img_file);
 		}
