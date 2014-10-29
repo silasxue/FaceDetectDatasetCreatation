@@ -178,7 +178,7 @@ int main( int argc, char** argv)
 
 	string result_path = "../result/";
 	string face_rec_path = "../face_recs/";
-	int frame_skip = 25;
+	int frame_skip = 20;
 	int frame_counter = 0;                      /* 计数 */
 	int det_min_size = 30;
 	int det_max_size = 400;
@@ -220,13 +220,14 @@ int main( int argc, char** argv)
 		if( frame.empty())
 		{
 			cout<<"end of the video, processed "<<frame_counter<<" frames "<<endl;
+			break;
 		}
 		frame_counter++;
 		cout<<"processing frame number "<<frame_counter<<endl;
 
 		/* 上次检测在这一帧中断，从这里开始 */
-		if( frame_counter < 30915 )
-			continue;
+		//if( frame_counter < 30915 )
+		//	continue;
 
 	//	frame = imread("../result/metro_01-5157.jpg");
 	//	resize(frame, frame, Size(0,0),0.6,0.6);

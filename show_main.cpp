@@ -45,6 +45,7 @@ void parse_name( const string &full_name,
 int
 main ( int argc, char *argv[] )
 {
+	bool removeTheNoFaceImage = true;
 
 	string data_path_   = "../result/";				    	/* 原始的结果存放的文件夹 */
 
@@ -85,6 +86,8 @@ main ( int argc, char *argv[] )
 		Mat input_image = imread( img_file_);
 
 		fs::path yml_file(yml_file_);
+		fs::path img_file(img_file_);
+
 		if(!fs::exists(yml_file))
 		{
 			cout<<"error, file "<<yml_file_<<" does not exist !"<<endl;
@@ -105,6 +108,15 @@ main ( int argc, char *argv[] )
 		ffs["number_of_face"]>>number_of_face;
 		ffs["faces"]>>faceMat;
 		fromMatToVector(faceMat, facerects);
+
+		/* 删除那些不包含人脸的图像 */
+		if(removeTheNoFaceImage && facerects.size()==0)
+		{
+			fs::remove( yml_file);
+			fs::remove( img_file);
+		}
+
+
 		ffs.release();
 
 		for(int c=0;c<facerects.size();c++)
