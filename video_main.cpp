@@ -171,14 +171,21 @@ void mergeAllTheFaces( const Mat &img,
 
 int main( int argc, char** argv)
 {
+	if( argc != 2)
+	{
+		cout<<"format: ./detFaceInVideo path_to_the_video "<<endl;
+		return -1;
+	}
+
+
 	/* parameters */
 	string video_path =  string(argv[1]);
-	fs::path f_video_path(video_path);
 	string video_name = fs::basename(video_path);
 
-	string result_path = "../result/";
-	string face_rec_path = "../face_recs/";
-	int frame_skip = 20;
+	string result_path = "./result/";
+	string face_rec_path = "./facerects/";
+
+	int frame_skip = 5;
 	int frame_counter = 0;                      /* 计数 */
 	int det_min_size = 30;
 	int det_max_size = 400;
@@ -194,17 +201,16 @@ int main( int argc, char** argv)
 	/* 各种人脸检测方法初始化 */
 	
 	/* 1 haar */
-	string face_cascade_name = "../xintai.xml";
+	string face_cascade_name = "./xintai.xml";
 	CascadeClassifier face_cascade;
 	if(!face_cascade.load( face_cascade_name ) )
 	{
 		tcout<<"can not load the face model "<<face_cascade_name<<endl;
 		return -1;
 	}
-
 	/* 2 facedetWithFilter */
 	FacedetWithFilter fff;
-	fff.init("../svm_w.xml","../svm_b.xml");
+	fff.init("./svm_w.xml","./svm_b.xml");
 	fff.setConfidenceParas( 3.0, 0.2, 0);			/* 设置比较低的阈值，以产生比较高的recall, 尽量不要错过 */
 	fff.setDetectionParas( det_min_size, det_max_size, scale_factor,0.1);
 
@@ -217,6 +223,7 @@ int main( int argc, char** argv)
 	{
 		/* input image */
 		cap >> frame;
+		cout<<"processing img .."<<endl;
 		if( frame.empty())
 		{
 			cout<<"end of the video, processed "<<frame_counter<<" frames "<<endl;

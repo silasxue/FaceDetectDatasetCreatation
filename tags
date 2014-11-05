@@ -311,6 +311,7 @@ PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"
 PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
 PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d	file:
 RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+Rect	show_main.cpp	/^		faceRects.push_back( Rect( inputMat.at<int>(c,1), inputMat.at<int>(c,2),inputMat.at<int>(c,3),inputMat.at<int>(c,4)));$/;"	p	file:	signature:(inputMat.at<int>(c,1), inputMat.at<int>(c,2),inputMat.at<int>(c,3),inputMat.at<int>(c,4))
 SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
 TCbCr	faceRegion.hpp	/^struct TCbCr$/;"	s
@@ -319,14 +320,25 @@ TCbCr::Cr	faceRegion.hpp	/^	double Cr;$/;"	m	struct:TCbCr	access:public
 _FIXED_POINT_SCALE_	picort.cpp	/^static int _FIXED_POINT_SCALE_ = (1<<15);$/;"	v	file:
 _bintest	picort.cpp	/^	int _bintest(int tcode, int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)$/;"	f	signature:(int tcode, int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)
 a	picort.cpp	/^		int a[4096];$/;"	l
+already_have	video_main.cpp	/^		bool already_have = false;$/;"	l
 appfinder	FacedetWithFilter.h	/^	unsigned char* appfinder;$/;"	m	class:FacedetWithFilter	access:private
+assign	video_main.cpp	/^	merge_faces.assign( pico_faces.begin(), pico_faces.end());$/;"	p	file:	signature:( pico_faces.begin(), pico_faces.end())
 assign_image	main.cpp	/^		dlib::assign_image( img, input_im );$/;"	p	class:dlib	file:	signature:( img, input_im )
+assign_image	video_main.cpp	/^		dlib::assign_image( dlib_frame, input_im );$/;"	p	class:dlib	file:	signature:( dlib_frame, input_im )
+at	video_main.cpp	/^		f.at<int>(c,0) = c;$/;"	p	file:	signature:(c,0)
+at	video_main.cpp	/^		f.at<int>(c,1) = faceRects[c].x;$/;"	p	file:	signature:(c,1)
+at	video_main.cpp	/^		f.at<int>(c,2) = faceRects[c].y;$/;"	p	file:	signature:(c,2)
+at	video_main.cpp	/^		f.at<int>(c,3) = faceRects[c].width;$/;"	p	file:	signature:(c,3)
+at	video_main.cpp	/^		f.at<int>(c,4) = faceRects[c].height;$/;"	p	file:	signature:(c,4)
 basename	main.cpp	/^        string basename = fs::basename( s );$/;"	l
+basename	revise_main.cpp	/^		string basename = fs::basename(s);$/;"	l
+basename	show_main.cpp	/^		string basename = fs::basename(s);$/;"	l
 bintest	picort.cpp	87;"	d	file:
 bintest	picort.cpp	92;"	d	file:
 bmean	faceRegion.hpp	/^	double bmean=117.4361;\/\/��˹ģ�Ͳ���$/;"	v
 brcov	faceRegion.hpp	/^	double brcov[2][2]={160.1301,12.1430,12.1430,299.4574} ;$/;"	v
 c	picort.cpp	/^			float r, c, dr, dc;$/;"	l
+c	video_main.cpp	/^			stringstream ss; ss<<c; string face_string; ss>>face_string;$/;"	l
 c1	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
 c2	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
 cap	video_main.cpp	/^	VideoCapture cap(video_path);$/;"	p	file:	signature:(video_path)
@@ -345,6 +357,7 @@ compute	FaceFilter.cpp	/^    this->hog.compute( temp_img, des);$/;"	p	file:	sign
 copyTo	main.cpp	/^		im.copyTo(cp1);$/;"	p	file:	signature:(cp1)
 copyTo	main.cpp	/^		im.copyTo(cp2);$/;"	p	file:	signature:(cp2)
 copyTo	main.cpp	/^		im.copyTo(cp3);$/;"	p	file:	signature:(cp3)
+copyTo	video_main.cpp	/^		Mat show; frame.copyTo(show);$/;"	p	file:	signature:(show)
 cost	picort.cpp	/^		int cost, sint;$/;"	l
 countIsFace	faceRegion.hpp	/^	int countIsFace = 0;$/;"	l
 cp1	main.cpp	/^		Mat cp1,cp2,cp3;$/;"	l
@@ -354,7 +367,12 @@ cs	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAX
 cv::groupRectangles	FacedetWithFilter.cpp	/^	cv::groupRectangles( detectedfaces, 1, 0.3);$/;"	p	class:cv	file:	signature:( detectedfaces, 1, 0.3)
 d	picort.cpp	/^		int d, idx;$/;"	l
 data	faceRegion.hpp	/^	uchar* data = (uchar*)frame->imageData;$/;"	l
+data_path	revise_main.cpp	/^	fs::path data_path( data_path_ );$/;"	p	file:	signature:( data_path_ )
+data_path	show_main.cpp	/^	fs::path data_path( data_path_ );$/;"	p	file:	signature:( data_path_ )
+data_path_	revise_main.cpp	/^	string data_path_   = argv[2];				    	\/* 原始的结果存放的文件夹 *\/$/;"	l
+data_path_	show_main.cpp	/^	string data_path_   = argv[1];				    	\/* 原始的结果存放的文件夹 *\/$/;"	l
 dc	picort.cpp	/^			float r, c, dr, dc;$/;"	l
+deleteById	revise_main.cpp	/^void deleteById( Mat &ori, int id,  Mat &output)$/;"	f	signature:( Mat &ori, int id, Mat &output)
 deltaMax	faceRegion.hpp	/^			deltaTmp, deltaMax = 0;$/;"	l
 deltaTmp	faceRegion.hpp	/^			deltaTmp, deltaMax = 0;$/;"	l
 des	FaceFilter.cpp	/^    vector<float> des;$/;"	l
@@ -364,22 +382,27 @@ det_weight	FacedetWithFilter.cpp	/^	std::vector<double> det_weight;$/;"	l
 detectAndFilter	FacedetWithFilter.cpp	/^bool FacedetWithFilter::detectAndFilter(const Mat &inputimage,   $/;"	f	class:FacedetWithFilter	signature:(const Mat &inputimage, vector<Rect> &passedfaces)
 detectAndFilter	FacedetWithFilter.h	/^	bool detectAndFilter( const Mat &inputimage,   $/;"	p	class:FacedetWithFilter	access:public	signature:( const Mat &inputimage, vector<Rect> &passedfaces)
 detectAndFilter	main.cpp	/^        fff.detectAndFilter( im , faces);$/;"	p	file:	signature:( im , faces)
+detectAndFilter	video_main.cpp	/^		fff.detectAndFilter( frame, faces_ff);$/;"	p	file:	signature:( frame, faces_ff)
 detectFace	FacedetWithFilter.cpp	/^bool FacedetWithFilter::detectFace( const Mat &inputimage, $/;"	f	class:FacedetWithFilter	signature:( const Mat &inputimage, vector<Rect> &detectedfaces)
 detectFace	FacedetWithFilter.h	/^	bool detectFace(const Mat &inputimage, $/;"	p	class:FacedetWithFilter	access:public	signature:(const Mat &inputimage, vector<Rect> &detectedfaces)
 detectFace	main.cpp	/^		fff.detectFace(im , faces );$/;"	p	file:	signature:(im , faces )
 detectMultiScale	main.cpp	/^		face_cascade.detectMultiScale( im, faces2, scale_factor, 2, 0, Size(min_,min_), Size(max_,max_) );$/;"	p	file:	signature:( im, faces2, scale_factor, 2, 0, Size(min_,min_), Size(max_,max_) )
+detectMultiScale	video_main.cpp	/^		face_cascade.detectMultiScale( frame, faces_haar, scale_factor, 2, 0, Size(det_min_size, det_min_size), Size(det_max_size, det_max_size));$/;"	p	file:	signature:( frame, faces_haar, scale_factor, 2, 0, Size(det_min_size, det_min_size), Size(det_max_size, det_max_size))
 detector	main.cpp	/^	dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();$/;"	l
 dets	main.cpp	/^        std::vector<dlib::rectangle> dets = detector(img);$/;"	l
+dets	video_main.cpp	/^		vector<dlib::rectangle> dets = hog_detector(dlib_frame);$/;"	l
 dlib::assign_image	main.cpp	/^		dlib::assign_image( img, input_im );$/;"	p	class:dlib	file:	signature:( img, input_im )
+dlib::assign_image	video_main.cpp	/^		dlib::assign_image( dlib_frame, input_im );$/;"	p	class:dlib	file:	signature:( dlib_frame, input_im )
+dlib_frame	video_main.cpp	/^		dlib::array2d<dlib::bgr_pixel> dlib_frame;$/;"	l
 dr	picort.cpp	/^			float r, c, dr, dc;$/;"	l
 end_it	main.cpp	/^	fs::directory_iterator end_it;$/;"	l
+end_it	revise_main.cpp	/^	fs::directory_iterator end_it;$/;"	l
+end_it	show_main.cpp	/^	fs::directory_iterator end_it;$/;"	l
 endl	FaceFilter.cpp	/^			cout<<"filter because color "<<endl;$/;"	l
 endl	FaceFilter.cpp	/^		cout<<"filter because hog , less than "<<hogFilterThrehold<<endl;$/;"	l
 endl	FaceFilter.cpp	/^        cout<<"can not load the model "<<path_of_svm_b<<endl;$/;"	l
 endl	FaceFilter.cpp	/^        cout<<"can not load the model "<<path_of_svm_w<<endl;$/;"	l
 endl	FaceFilter.cpp	/^        cout<<"skipped the color filter step"<<endl;$/;"	l
-endl	FaceFilter.cpp	/^        cout<<"the color score is "<<colorScore<<endl;$/;"	l
-endl	FaceFilter.cpp	/^    cout<<"hog score is "<<final_score<<endl;$/;"	l
 endl	FacedetWithFilter.cpp	/^		cout<<"empty input faces"<<endl;$/;"	l
 endl	main.cpp	/^		std::cout<<"can not load the face model "<<std::endl;$/;"	m	class:std	file:
 endl	main.cpp	/^		std::cout<<"input_path "<<input_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
@@ -388,23 +411,70 @@ endl	main.cpp	/^		std::cout<<"time duration haarboost is "<<t\/getTickFrequency(
 endl	main.cpp	/^		std::cout<<"time duration in dlib is "<<t\/(double)cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
 endl	main.cpp	/^		std::cout<<"time duration pico det and filter is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
 endl	main.cpp	/^		std::cout<<"time duration pico det is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
-endl	video_main.cpp	/^			cout<<"can not load the face model "<<face_cascade_name<<endl;$/;"	l
-endl	video_main.cpp	/^		cout<<"can not open video, exit "<<endl;$/;"	l
-endl	video_main.cpp	/^		cout<<"local counter is "<<local_counter<<endl;$/;"	l
+endl	revise_main.cpp	/^			cout<<"error, can not open "<<yml_file_<<" for FileStorage open"<<endl;$/;"	l
+endl	revise_main.cpp	/^			cout<<"error, file "<<yml_file_<<" does not exist !"<<endl;$/;"	l
+endl	revise_main.cpp	/^			cout<<"skip file "<<pathname<<endl;$/;"	l
+endl	revise_main.cpp	/^		cout<<"format should be :.\/revise_result path_to_wrong_face_folder\/ path_to_result_folder\/"<<endl;$/;"	l
+endl	revise_main.cpp	/^		cout<<"processing "<<basename<<" with extension "<<extname<<endl;$/;"	l
+endl	revise_main.cpp	/^		std::cout<<"data_path "<<data_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+endl	revise_main.cpp	/^		std::cout<<"data_path is not a directory "<<data_path<<std::endl;$/;"	m	class:std	file:
+endl	revise_main.cpp	/^		std::cout<<"result_path "<<result_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+endl	revise_main.cpp	/^		std::cout<<"result_path is not a directory "<<result_path<<std::endl;$/;"	m	class:std	file:
+endl	show_main.cpp	/^			cout<<"delete file "<<img_file_<<endl;$/;"	l
+endl	show_main.cpp	/^			cout<<"error, can not open "<<yml_file_<<" for FileStorage open"<<endl;$/;"	l
+endl	show_main.cpp	/^			cout<<"error, file "<<yml_file_<<" does not exist !"<<endl;$/;"	l
+endl	show_main.cpp	/^		cout<<"format should be : .\/show_result path_to_the_result_folder\/ "<<endl;$/;"	l
+endl	show_main.cpp	/^		cout<<"processing file "<<img_file_<<endl;$/;"	l
+endl	show_main.cpp	/^		std::cout<<"data_path "<<data_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+endl	show_main.cpp	/^		std::cout<<"data_path is not a directory "<<data_path<<std::endl;$/;"	m	class:std	file:
+endl	video_main.cpp	/^			cout<<"end of the video, processed "<<frame_counter<<" frames "<<endl;$/;"	l
+endl	video_main.cpp	/^			tcout<<"faces_ff: rect is "<<faces_ff[c]<<endl;$/;"	l
+endl	video_main.cpp	/^			tcout<<"faces_haar: rect is "<<faces_haar[c]<<endl;$/;"	l
+endl	video_main.cpp	/^			tcout<<"faces_hog: rect is "<<faces_hog[c]<<endl;$/;"	l
+endl	video_main.cpp	/^			tcout<<"merge_face: rect is "<<merge_faces[c]<<endl;$/;"	l
+endl	video_main.cpp	/^		cout<<"format: .\/detFaceInVideo path_to_the_video "<<endl;$/;"	l
+endl	video_main.cpp	/^		cout<<"processing frame number "<<frame_counter<<endl;$/;"	l
+endl	video_main.cpp	/^		cout<<"processing img .."<<endl;$/;"	l
+endl	video_main.cpp	/^		tcout<<"can not load the face model "<<face_cascade_name<<endl;$/;"	l
+endl	video_main.cpp	/^		tcout<<"can not open video, exit "<<endl;$/;"	l
+endl	video_main.cpp	/^		tcout<<"image file name is "<<image_file_name<<endl;$/;"	l
+endl	video_main.cpp	/^	cout<<"ff loaded "<<endl;$/;"	l
+endl	video_main.cpp	/^	cout<<"fhog loaded "<<endl;$/;"	l
+endl	video_main.cpp	/^	cout<<"haar loaded "<<endl;$/;"	l
 extname	main.cpp	/^		string extname  = fs::extension( *(file_iter) );$/;"	l
+extname	revise_main.cpp	/^		string extname  = fs::extension(s);$/;"	l
+extname	show_main.cpp	/^		string extname  = fs::extension(s);$/;"	l
 f_filter	FacedetWithFilter.h	/^	FaceFilter f_filter;$/;"	m	class:FacedetWithFilter	access:private
+faceMat	revise_main.cpp	/^		Mat faceMat;$/;"	l
+faceMat	revise_main.cpp	/^		ffs["faces"]>>faceMat;$/;"	l
+faceMat	show_main.cpp	/^		Mat faceMat;$/;"	l
+faceMat	show_main.cpp	/^		ffs["faces"]>>faceMat;$/;"	l
+faceMat	video_main.cpp	/^		Mat faceMat;$/;"	l
+faceMat	video_main.cpp	/^		ffs<<"faces"<<faceMat;$/;"	l
 face_cascade	main.cpp	/^	CascadeClassifier face_cascade;$/;"	l
-face_cascade	video_main.cpp	/^		CascadeClassifier face_cascade;$/;"	l
+face_cascade	video_main.cpp	/^	CascadeClassifier face_cascade;$/;"	l
 face_cascade_name	main.cpp	/^	string face_cascade_name = "..\/xintai.xml";$/;"	l
-face_cascade_name	video_main.cpp	/^		string face_cascade_name = "..\/xintai.xml";$/;"	l
+face_cascade_name	video_main.cpp	/^	string face_cascade_name = ".\/xintai.xml";$/;"	l
+face_image_save_path	video_main.cpp	/^			string face_image_save_path = face_rec_path+video_name + "-" + frame_string+"-"+face_string+".jpg";$/;"	l
+face_rec_path	video_main.cpp	/^	string face_rec_path = ".\/facerects\/";$/;"	l
+face_string	video_main.cpp	/^			stringstream ss; ss<<c; string face_string; ss>>face_string;$/;"	l
+faceid	revise_main.cpp	/^		string faceid, filename;$/;"	l
+faceid	revise_main.cpp	/^		stringstream ss;ss<<faceid;int id_face;ss>>id_face;$/;"	l
+facerects	show_main.cpp	/^		vector<Rect> facerects;$/;"	l
 faces	FacedetWithFilter.cpp	/^	vector<Rect> faces;$/;"	l
 faces	main.cpp	/^		vector<Rect> faces;$/;"	l
 faces2	main.cpp	/^		vector<Rect> faces2;$/;"	l
+faces_ff	video_main.cpp	/^		vector<Rect> faces_ff;$/;"	l
+faces_haar	video_main.cpp	/^		vector<Rect> faces_haar;$/;"	l
+faces_hog	video_main.cpp	/^		vector<Rect> faces_hog;$/;"	l
 fecedet_confidence	FacedetWithFilter.h	/^	double  fecedet_confidence;$/;"	m	class:FacedetWithFilter	access:private
 ff	FacedetWithFilter.cpp	/^    FILE *ff = fopen("..\/facefinder_pure.ea","r");$/;"	l
 fff	main.cpp	/^	FacedetWithFilter fff;$/;"	l
-fff	video_main.cpp	/^		FacedetWithFilter fff;$/;"	l
+fff	video_main.cpp	/^	FacedetWithFilter fff;$/;"	l
 fframe	FacedetWithFilter.cpp	/^	const IplImage fframe = inputimage.operator _IplImage();$/;"	l
+ffs	revise_main.cpp	/^		FileStorage ffs( yml_file_ , FileStorage::READ);$/;"	p	file:	signature:( yml_file_ , FileStorage::READ)
+ffs	show_main.cpp	/^		FileStorage ffs( yml_file_ , FileStorage::READ);$/;"	p	file:	signature:( yml_file_ , FileStorage::READ)
+filename	revise_main.cpp	/^		string faceid, filename;$/;"	l
 filter	FaceFilter.cpp	/^bool FaceFilter::filter( const Mat &inputimage, $/;"	f	class:FaceFilter	signature:( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold)
 filter	FaceFilter.h	/^    bool filter( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold);$/;"	p	class:FaceFilter	access:public	signature:( const Mat &inputimage, double faceRegionThrehold, double hogFilterThrehold)
 filter	faceRegion.hpp	/^void filter(double **source,int m_nWidth,int m_nHeight)$/;"	f	signature:(double **source,int m_nWidth,int m_nHeight)
@@ -417,8 +487,17 @@ find_objects	picort.h	/^int find_objects(float ccwangle, float rs[], float cs[],
 frame	FacedetWithFilter.cpp	/^	const IplImage *frame = &fframe;$/;"	l
 frame	video_main.cpp	/^		cap >> frame;$/;"	l
 frame	video_main.cpp	/^	Mat frame;$/;"	l
+frame_counter	video_main.cpp	/^		stringstream ss; ss<<frame_counter; string frame_string; ss>>frame_string;$/;"	l
+frame_counter	video_main.cpp	/^	int frame_counter = 0;                      \/* 计数 *\/$/;"	l
 frame_skip	video_main.cpp	/^	int frame_skip = 5;$/;"	l
+frame_string	video_main.cpp	/^		stringstream ss; ss<<frame_counter; string frame_string; ss>>frame_string;$/;"	l
+fromMatToVector	show_main.cpp	/^void fromMatToVector( const Mat &inputMat, vector<Rect> &faceRects )$/;"	f	signature:( const Mat &inputMat, vector<Rect> &faceRects )
+fromVectorToMat	video_main.cpp	/^void fromVectorToMat( vector<Rect> faceRects, Mat &f)$/;"	f	signature:( vector<Rect> faceRects, Mat &f)
 fs	FaceFilter.cpp	/^    FileStorage fs;$/;"	l
+fs::remove	revise_main.cpp	/^		fs::remove(pathname);							\/* 注意这里也删除拉原来的错误图片 避免一个图片用两次 造成错误 *\/$/;"	p	class:fs	file:	signature:(pathname)
+fs::remove	revise_main.cpp	/^		fs::remove(yml_file);$/;"	p	class:fs	file:	signature:(yml_file)
+fs::remove	show_main.cpp	/^			fs::remove( img_file);$/;"	p	class:fs	file:	signature:( img_file)
+fs::remove	show_main.cpp	/^			fs::remove( yml_file);$/;"	p	class:fs	file:	signature:( yml_file)
 getFaceRegionRatio	faceRegion.hpp	/^double getFaceRegionRatio( IplImage *inputImage )$/;"	f	signature:( IplImage *inputImage )
 get_dtree_output	picort.cpp	/^	float get_dtree_output(int8_t tree[], int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)$/;"	f	signature:(int8_t tree[], int r, int c, int sr, int sc, int cost, int sint, uint8_t pixels[], int nrows, int ncols, int ldim)
 get_dtree_size	picort.cpp	/^	int get_dtree_size(int8_t dtree[])$/;"	f	signature:(int8_t dtree[])
@@ -427,8 +506,9 @@ gray	FacedetWithFilter.cpp	/^	IplImage* gray = 0;$/;"	l
 groupRectangles	FacedetWithFilter.cpp	/^	cv::groupRectangles( detectedfaces, 1, 0.3);$/;"	p	class:cv	file:	signature:( detectedfaces, 1, 0.3)
 height	faceRegion.hpp	/^	int height = frame->height;$/;"	l
 height_	main.cpp	/^			int height_ = dets[j].height();$/;"	l
+height_	video_main.cpp	/^			int height_ = dets[j].height();$/;"	l
 hog	FaceFilter.h	/^    HOGDescriptor hog;$/;"	m	class:FaceFilter	access:private
-hog_detector	video_main.cpp	/^		dlib::frontal_face_detector hog_detector = dlib::get_frontal_face_detector();$/;"	l
+hog_detector	video_main.cpp	/^	dlib::frontal_face_detector hog_detector = dlib::get_frontal_face_detector();$/;"	l
 hog_score	FacedetWithFilter.h	/^	double hog_score;$/;"	m	class:FacedetWithFilter	access:private
 i	FacedetWithFilter.cpp	/^	int i;$/;"	l
 i	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
@@ -436,14 +516,18 @@ i	picort.cpp	/^			int i, k;$/;"	l
 i	picort.cpp	/^		int i, j;$/;"	l
 i	picort.cpp	/^		int i, ncc, cc;$/;"	l
 ic	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
+id_face	revise_main.cpp	/^		stringstream ss;ss<<faceid;int id_face;ss>>id_face;$/;"	l
 idx	picort.cpp	/^		int d, idx;$/;"	l
 idx	picort.cpp	/^		int idx, ncc, cc;$/;"	l
 im	main.cpp	/^		Mat im = imread( pathname );$/;"	l
+image_file_name	video_main.cpp	/^		string image_file_name = video_name + "-" + frame_string+".jpg";$/;"	l
 image_path	main.cpp	/^	string image_path = "\/home\/yuanyang\/workspace\/face_align_one_millisecond\/face_landmark_data\/lfpw\/trainset\/";$/;"	l
 img	FaceFilter.cpp	/^        IplImage img = IplImage(inputimage);$/;"	l
 img	main.cpp	/^		dlib::array2d<dlib::bgr_pixel> img;$/;"	l
 imgGauss	faceRegion.hpp	/^    IplImage *imgGauss = 0;$/;"	l
 imgTemp	faceRegion.hpp	/^    CvScalar imgTemp;$/;"	l
+img_file	show_main.cpp	/^		fs::path img_file(img_file_);$/;"	p	file:	signature:(img_file_)
+img_file_	show_main.cpp	/^		string img_file_ = data_path_+basename+".jpg";$/;"	l
 info_arch	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
 info_arch	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
 info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
@@ -457,29 +541,43 @@ init	FaceFilter.h	/^    bool init( string path_of_svm_w, string path_of_svm_b );
 init	FacedetWithFilter.cpp	/^bool FacedetWithFilter::init( string path_of_svm_w,$/;"	f	class:FacedetWithFilter	signature:( string path_of_svm_w, string path_of_svm_b)
 init	FacedetWithFilter.h	/^	bool init(  string path_of_svm_w,$/;"	p	class:FacedetWithFilter	access:public	signature:( string path_of_svm_w, string path_of_svm_b)
 input_im	main.cpp	/^		dlib::cv_image<dlib::bgr_pixel> input_im(im);$/;"	p	file:	signature:(im)
+input_im	video_main.cpp	/^		dlib::cv_image<dlib::bgr_pixel> input_im(frame);$/;"	p	file:	signature:(frame)
+input_image	show_main.cpp	/^		Mat input_image = imread( img_file_);$/;"	l
 input_path	main.cpp	/^	fs::path input_path( image_path );$/;"	p	file:	signature:( image_path )
+intersect	video_main.cpp	/^	Rect intersect = r1 & r2;$/;"	l
 ir	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
+isBoxInValid	video_main.cpp	/^bool isBoxInValid( const Mat &img, Rect bbox )$/;"	f	signature:( const Mat &img, Rect bbox )
+isSameTarget	video_main.cpp	/^bool isSameTarget( Rect r1, Rect r2)$/;"	f	signature:( Rect r1, Rect r2)
 isc	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
 isr	picort.cpp	/^		int ir, ic, isr, isc;$/;"	l
 j	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
 j	picort.cpp	/^		int i, j;$/;"	l
 j	picort.cpp	/^		int j;$/;"	l
 k	picort.cpp	/^			int i, k;$/;"	l
+last_dash	revise_main.cpp	/^	int last_dash = full_name.find_last_of("-");$/;"	l
+last_dash	show_main.cpp	/^	int last_dash = full_name.find_last_of("-");$/;"	l
+last_dot	revise_main.cpp	/^	int last_dot = full_name.find_last_of(".");$/;"	l
+last_dot	show_main.cpp	/^	int last_dot = full_name.find_last_of(".");$/;"	l
 ldim	FacedetWithFilter.cpp	/^	int nrows, ncols, ldim;$/;"	l
 left_	main.cpp	/^			int left_ = dets[j].left();$/;"	l
+left_	video_main.cpp	/^			int left_ = dets[j].left();$/;"	l
 likeliHood	faceRegion.hpp	/^IplImage* likeliHood(IplImage *pImg)$/;"	f	signature:(IplImage *pImg)
 loc	picort.cpp	/^		int loc;$/;"	l
-local_counter	video_main.cpp	/^	int local_counter = 0;$/;"	l
+local_counter	video_main.cpp	/^	int local_counter = 0;              $/;"	l
 m	faceRegion.hpp	/^	 int m;$/;"	l
 m_pLikeliHoodArray	faceRegion.hpp	/^    double **m_pLikeliHoodArray = new double*[pImg->height+1];$/;"	l
 main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
 main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
 main	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
 main	main.cpp	/^int main( int argc, char** argv)$/;"	f	signature:( int argc, char** argv)
+main	revise_main.cpp	/^main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	show_main.cpp	/^main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
 main	video_main.cpp	/^int main( int argc, char** argv)$/;"	f	signature:( int argc, char** argv)
 max	faceRegion.hpp	/^	double max = 0.0;$/;"	l
 max_	main.cpp	/^		int max_ = min( im.cols, im.rows);$/;"	l
 maxsize	FacedetWithFilter.h	/^	int		maxsize;$/;"	m	class:FacedetWithFilter	access:private
+mergeAllTheFaces	video_main.cpp	/^void mergeAllTheFaces( const Mat &img,$/;"	f	signature:( const Mat &img, vector<Rect> &pico_faces, vector<Rect> &haar_faces, vector<Rect> &hog_faces, vector<Rect> &merge_faces)
+merge_faces	video_main.cpp	/^		vector<Rect> merge_faces;$/;"	l
 min_	main.cpp	/^		int min_ = 50;$/;"	l
 minsize	FacedetWithFilter.h	/^	int		minsize;$/;"	m	class:FacedetWithFilter	access:private
 ncc	picort.cpp	/^		int i, ncc, cc;$/;"	l
@@ -487,11 +585,23 @@ ncc	picort.cpp	/^		int idx, ncc, cc;$/;"	l
 ncols	FacedetWithFilter.cpp	/^	int nrows, ncols, ldim;$/;"	l
 ndetections	FacedetWithFilter.cpp	/^	int ndetections;$/;"	l
 ndetections	picort.cpp	/^		int ndetections;$/;"	l
+newFaceMat	revise_main.cpp	/^		Mat newFaceMat;$/;"	l
+newFaceMat	revise_main.cpp	/^		ffs<<"faces"<<newFaceMat;$/;"	l
+newRect	video_main.cpp	/^		Rect newRect = haar_faces[c];$/;"	l
+newRect	video_main.cpp	/^		Rect newRect = hog_faces[c];$/;"	l
 nrows	FacedetWithFilter.cpp	/^	int nrows, ncols, ldim;$/;"	l
 nstages	picort.cpp	/^		int32_t nstages;$/;"	l
+number_of_detected_faces	video_main.cpp	/^		ffs<<"number_of_face"<<number_of_detected_faces;$/;"	l
+number_of_detected_faces	video_main.cpp	/^		int number_of_detected_faces = merge_faces.size();$/;"	l
+number_of_face	revise_main.cpp	/^		ffs<<"number_of_face"<<number_of_face;$/;"	l
+number_of_face	revise_main.cpp	/^		ffs["number_of_face"]>>number_of_face;$/;"	l
+number_of_face	revise_main.cpp	/^		int number_of_face;$/;"	l
+number_of_face	show_main.cpp	/^		ffs["number_of_face"]>>number_of_face;$/;"	l
+number_of_face	show_main.cpp	/^		int number_of_face;$/;"	l
 numtrees	picort.cpp	/^			int numtrees;$/;"	l
 open	FaceFilter.cpp	/^	fs.open( path_of_svm_w, FileStorage::READ);$/;"	p	file:	signature:( path_of_svm_w, FileStorage::READ)
 open	FaceFilter.cpp	/^    fs.open(path_of_svm_b, FileStorage::READ);$/;"	p	file:	signature:(path_of_svm_b, FileStorage::READ)
+open	revise_main.cpp	/^		ffs.open( yml_file_, FileStorage::WRITE);$/;"	p	file:	signature:( yml_file_, FileStorage::WRITE)
 otsu	faceRegion.hpp	/^	 CvScalar otsu;$/;"	l
 otsuThreshold	faceRegion.hpp	/^int otsuThreshold(IplImage *frame)$/;"	f	signature:(IplImage *frame)
 overc	picort.cpp	/^		float overr, overc;$/;"	l
@@ -499,7 +609,11 @@ overr	picort.cpp	/^		float overr, overc;$/;"	l
 p	picort.cpp	/^		int8_t* p = (int8_t*)&tcode;$/;"	l
 pImgH	faceRegion.hpp	/^	int pImgH=pImg->height;$/;"	l
 pImgW	faceRegion.hpp	/^	int pImgW=pImg->width;$/;"	l
+parse_name	revise_main.cpp	/^void parse_name( const string &full_name,$/;"	f	signature:( const string &full_name, string &file_name, string &faceid)
+parse_name	show_main.cpp	/^void parse_name( const string &full_name,$/;"	f	signature:( const string &full_name, string &file_name, string &faceid)
 pathname	main.cpp	/^        string pathname = file_iter->path().string();$/;"	l
+pathname	revise_main.cpp	/^        string pathname = file_iter->path().string();$/;"	l
+pathname	show_main.cpp	/^        string pathname = file_iter->path().string();$/;"	l
 pixelCount	faceRegion.hpp	/^	int pixelCount[256];$/;"	l
 pixelPro	faceRegion.hpp	/^	float pixelPro[256];$/;"	l
 pixelSum	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
@@ -509,6 +623,9 @@ push_back	FacedetWithFilter.cpp	/^			det_weight.push_back( qs[i] );$/;"	p	file:	
 push_back	FacedetWithFilter.cpp	/^			detectedfaces.push_back( facerec);$/;"	p	file:	signature:( facerec)
 push_back	FacedetWithFilter.cpp	/^			filtered_faces.push_back( infaces[c]);$/;"	p	file:	signature:( infaces[c])
 push_back	FacedetWithFilter.cpp	/^		tmp_hold.push_back(tmp_c);$/;"	p	file:	signature:(tmp_c)
+push_back	revise_main.cpp	/^		output.push_back( ori.row(c));$/;"	p	file:	signature:( ori.row(c))
+push_back	video_main.cpp	/^			faces_hog.push_back(tmp);$/;"	p	file:	signature:(tmp)
+push_back	video_main.cpp	/^			merge_faces.push_back( newRect);$/;"	p	file:	signature:( newRect)
 q	picort.cpp	/^					float q;$/;"	l
 qs	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
 r	picort.cpp	/^			float r, c, dr, dc;$/;"	l
@@ -517,23 +634,41 @@ r2	picort.cpp	/^		int r1, c1, r2, c2;$/;"	l
 ratio	faceRegion.hpp	/^	 double ratio = countIsFace\/(1.0*imgGauss->height*imgGauss->width);$/;"	l
 ratio	faceRegion.hpp	/^    double ratio = OTSU_ratio(imgGauss);$/;"	l
 release	FaceFilter.cpp	/^    fs.release();$/;"	p	file:	signature:()
+release	revise_main.cpp	/^		ffs.release();$/;"	p	file:	signature:()
+release	show_main.cpp	/^		ffs.release();$/;"	p	file:	signature:()
+release	video_main.cpp	/^		ffs.release();$/;"	p	file:	signature:()
+remove	revise_main.cpp	/^		fs::remove(pathname);							\/* 注意这里也删除拉原来的错误图片 避免一个图片用两次 造成错误 *\/$/;"	p	class:fs	file:	signature:(pathname)
+remove	revise_main.cpp	/^		fs::remove(yml_file);$/;"	p	class:fs	file:	signature:(yml_file)
+remove	show_main.cpp	/^			fs::remove( img_file);$/;"	p	class:fs	file:	signature:( img_file)
+remove	show_main.cpp	/^			fs::remove( yml_file);$/;"	p	class:fs	file:	signature:( yml_file)
+removeTheNoFaceImage	show_main.cpp	/^	bool removeTheNoFaceImage = true;$/;"	l
 require	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^  int require = 0;$/;"	l
 require	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  int require = 0;$/;"	l
 res	faceRegion.hpp	/^	struct TCbCr res;$/;"	l
+result_path	revise_main.cpp	/^	fs::path result_path( result_path_ );$/;"	p	file:	signature:( result_path_ )
+result_path	video_main.cpp	/^	string result_path = ".\/result\/";$/;"	l
+result_path_	revise_main.cpp	/^	string result_path_ = argv[1];                   \/* 错误的人脸图片存放的文件夹 *\/$/;"	l
 rmean	faceRegion.hpp	/^	double rmean=156.5599;$/;"	v
 rs	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
 s	main.cpp	/^		fs::path s = *(file_iter);$/;"	l
 s	picort.cpp	/^		float s;$/;"	l
+s	revise_main.cpp	/^		fs::path s = *(file_iter);$/;"	l
+s	show_main.cpp	/^		fs::path s = *(file_iter);$/;"	l
 scale_factor	main.cpp	/^		double scale_factor = 1.05;$/;"	l
-scale_factor	video_main.cpp	/^	double scale_factor = 1.1;$/;"	l
+scale_factor	video_main.cpp	/^	double scale_factor = 1.05;$/;"	l
 scalefacor	FacedetWithFilter.h	/^	double  scalefacor;$/;"	m	class:FacedetWithFilter	access:private
 setConfidenceParas	FacedetWithFilter.cpp	/^bool FacedetWithFilter::setConfidenceParas(	double det_confidence ,$/;"	f	class:FacedetWithFilter	signature:( double det_confidence , double color_filter_score , double hog_filter_score)
 setConfidenceParas	FacedetWithFilter.h	/^	bool setConfidenceParas(	double det_confidence = 4.0,$/;"	p	class:FacedetWithFilter	access:public	signature:( double det_confidence = 4.0, double color_filter_score = 0.3, double hog_filter_score = 0.1)
 setDetectionParas	FacedetWithFilter.cpp	/^bool FacedetWithFilter::setDetectionParas(int _minsize ,$/;"	f	class:FacedetWithFilter	signature:(int _minsize , int _maxsize , double _scalefactor , double _stridefactor)
 setDetectionParas	FacedetWithFilter.h	/^	bool setDetectionParas( int minsize = 40,$/;"	p	class:FacedetWithFilter	access:public	signature:( int minsize = 40, int maxsize = 90, double scalefactor = 1.2, double stridefactor = 0.2)
 setDetectionParas	main.cpp	/^        fff.setDetectionParas( min_ , max_ , scale_factor, 0.1);	\/\/Œì²âµÄ²ÎÊý$/;"	p	file:	signature:( min_ , max_ , scale_factor, 0.1)
+setDetectionParas	video_main.cpp	/^	fff.setDetectionParas( det_min_size, det_max_size, scale_factor,0.1);$/;"	p	file:	signature:( det_min_size, det_max_size, scale_factor,0.1)
+show	video_main.cpp	/^		Mat show; frame.copyTo(show);$/;"	l
 sint	picort.cpp	/^		int cost, sint;$/;"	l
 ss	FacedetWithFilter.cpp	/^	float qs[MAXNDETECTIONS], rs[MAXNDETECTIONS], cs[MAXNDETECTIONS], ss[MAXNDETECTIONS];$/;"	l
+ss	revise_main.cpp	/^		stringstream ss;ss<<faceid;int id_face;ss>>id_face;$/;"	l
+ss	video_main.cpp	/^			stringstream ss; ss<<c; string face_string; ss>>face_string;$/;"	l
+ss	video_main.cpp	/^		stringstream ss; ss<<frame_counter; string frame_string; ss>>frame_string;$/;"	l
 std::endl	main.cpp	/^		std::cout<<"can not load the face model "<<std::endl;$/;"	m	class:std	file:
 std::endl	main.cpp	/^		std::cout<<"input_path "<<input_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
 std::endl	main.cpp	/^		std::cout<<"input_path is not a directory "<<input_path<<std::endl;$/;"	m	class:std	file:
@@ -541,6 +676,12 @@ std::endl	main.cpp	/^		std::cout<<"time duration haarboost is "<<t\/getTickFrequ
 std::endl	main.cpp	/^		std::cout<<"time duration in dlib is "<<t\/(double)cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
 std::endl	main.cpp	/^		std::cout<<"time duration pico det and filter is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
 std::endl	main.cpp	/^		std::cout<<"time duration pico det is "<<t\/cv::getTickFrequency()<<std::endl;$/;"	m	class:std	file:
+std::endl	revise_main.cpp	/^		std::cout<<"data_path "<<data_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+std::endl	revise_main.cpp	/^		std::cout<<"data_path is not a directory "<<data_path<<std::endl;$/;"	m	class:std	file:
+std::endl	revise_main.cpp	/^		std::cout<<"result_path "<<result_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+std::endl	revise_main.cpp	/^		std::cout<<"result_path is not a directory "<<result_path<<std::endl;$/;"	m	class:std	file:
+std::endl	show_main.cpp	/^		std::cout<<"data_path "<<data_path<<" not exist "<<std::endl;$/;"	m	class:std	file:
+std::endl	show_main.cpp	/^		std::cout<<"data_path is not a directory "<<data_path<<std::endl;$/;"	m	class:std	file:
 stridefactor	FacedetWithFilter.h	/^	double  stridefactor;$/;"	m	class:FacedetWithFilter	access:private
 sumcs	picort.cpp	/^			float sumqs=0.0f, sumrs=0.0f, sumcs=0.0f, sumss=0.0f;$/;"	l
 sumqs	picort.cpp	/^			float sumqs=0.0f, sumrs=0.0f, sumcs=0.0f, sumss=0.0f;$/;"	l
@@ -558,6 +699,8 @@ t_g	faceRegion.hpp	/^            int t_g = ((uchar *)(pImg->imageData + i*pImg->
 t_r	faceRegion.hpp	/^            int t_r = ((uchar *)(pImg->imageData + i*pImg->widthStep))[j*pImg->nChannels + 2];$/;"	l
 tc	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
 tcodes	picort.cpp	/^		int32_t* tcodes;$/;"	l
+tcout	video_main.cpp	25;"	d	file:
+tcout	video_main.cpp	27;"	d	file:
 tdepth	picort.cpp	/^		int32_t tdepth;$/;"	l
 temp	faceRegion.hpp	/^	double **temp;$/;"	l
 temp	faceRegion.hpp	/^            TCbCr temp = CalCbCr(t_b,t_g,t_r);$/;"	l
@@ -566,9 +709,11 @@ threValue	faceRegion.hpp	/^     int threValue;$/;"	l
 threshold	faceRegion.hpp	/^	int i, j, pixelSum = width * height, threshold = 0;$/;"	l
 threshold	picort.cpp	/^		float threshold;$/;"	l
 tlut	picort.cpp	/^		float* tlut;$/;"	l
+tmp	video_main.cpp	/^			Rect tmp = Rect( left_, top_, width_, height_ );$/;"	l
 tmp_c	FacedetWithFilter.cpp	/^	unsigned int  tmp_c;$/;"	l
 tmp_hold	FacedetWithFilter.cpp	/^	vector<unsigned char> tmp_hold;         \/\/ ���ı��ļ�����һ�ζ�ȡ��ʱ��Ҳ�޷�֪������ĳ���$/;"	l
 top_	main.cpp	/^			int top_ = dets[j].top();$/;"	l
+top_	video_main.cpp	/^			int top_ = dets[j].top();$/;"	l
 tr	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
 tsc	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
 tsr	picort.cpp	/^		float tr, tc, tsr, tsc;$/;"	l
@@ -577,14 +722,21 @@ u0	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
 u0tmp	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
 u1	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
 u1tmp	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
+union_area	video_main.cpp	/^	double union_area = r1.width*r1.height + r2.width*r2.height - intersect.width*intersect.height;$/;"	l
+video_name	video_main.cpp	/^	string video_name = fs::basename(video_path);$/;"	l
 video_path	video_main.cpp	/^	string video_path =  string(argv[1]);$/;"	l
 w0	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
 w1	faceRegion.hpp	/^	float w0, w1, u0tmp, u1tmp, u0, u1, u, $/;"	l
 width	faceRegion.hpp	/^    int width = frame->width;$/;"	l
 width_	main.cpp	/^			int width_ = dets[j].width();$/;"	l
+width_	video_main.cpp	/^			int width_ = dets[j].width();$/;"	l
 x	faceRegion.hpp	/^	int x,y;$/;"	l
 x1	faceRegion.hpp	/^			double x1,x2;    $/;"	l
 x2	faceRegion.hpp	/^			double x1,x2;    $/;"	l
 y	faceRegion.hpp	/^	int x,y;$/;"	l
+yml_file	revise_main.cpp	/^		fs::path yml_file(yml_file_);$/;"	p	file:	signature:(yml_file_)
+yml_file	show_main.cpp	/^		fs::path yml_file(yml_file_);$/;"	p	file:	signature:(yml_file_)
+yml_file_	revise_main.cpp	/^		string yml_file_ = data_path_+filename+".yml";$/;"	l
+yml_file_	show_main.cpp	/^		string yml_file_ = data_path_+basename+".yml";$/;"	l
 ~FacedetWithFilter	FacedetWithFilter.cpp	/^FacedetWithFilter::~FacedetWithFilter()$/;"	f	class:FacedetWithFilter	signature:()
 ~FacedetWithFilter	FacedetWithFilter.h	/^	~FacedetWithFilter();$/;"	p	class:FacedetWithFilter	access:public	signature:()

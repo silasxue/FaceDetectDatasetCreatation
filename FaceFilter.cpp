@@ -29,6 +29,7 @@ bool FaceFilter::init( string path_of_svm_w,
     fs["matrix"]>>this->svm_w;
     fs.release();
 
+
     fs.open(path_of_svm_b, FileStorage::READ);
     if(!fs.isOpened())
     {

@@ -21,7 +21,7 @@ FacedetWithFilter::FacedetWithFilter()
 {
 	vector<unsigned char> tmp_hold;         // 纯文本文件，第一次读取的时候也无法知道具体的长度
 	
-    FILE *ff = fopen("../facefinder_pure.ea","r");
+    FILE *ff = fopen("./facefinder_pure.ea","r");
 	unsigned int  tmp_c;
 	while ( !feof(ff))
 	{

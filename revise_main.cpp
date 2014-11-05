@@ -46,9 +46,14 @@ void parse_name( const string &full_name,
 int
 main ( int argc, char *argv[] )
 {
+	if(argc != 3)
+	{
+		cout<<"format should be :./revise_result path_to_wrong_face_folder/ path_to_result_folder/"<<endl;
+		return -1;
+	}
 
-	string result_path_ = "../wrong_recs/";                   /* 错误的人脸图片存放的文件夹 */
-	string data_path_   = "../result/";				    	/* 原始的结果存放的文件夹 */
+	string result_path_ = argv[1];                   /* 错误的人脸图片存放的文件夹 */
+	string data_path_   = argv[2];				    	/* 原始的结果存放的文件夹 */
 
 	fs::path result_path( result_path_ );
 	fs::path data_path( data_path_ );

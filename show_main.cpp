@@ -45,9 +45,15 @@ void parse_name( const string &full_name,
 int
 main ( int argc, char *argv[] )
 {
+	if(argc !=2)
+	{
+		cout<<"format should be : ./show_result path_to_the_result_folder/ "<<endl;
+		return -1;
+	}
+
 	bool removeTheNoFaceImage = true;
 
-	string data_path_   = "../result/";				    	/* 原始的结果存放的文件夹 */
+	string data_path_   = argv[1];				    	/* 原始的结果存放的文件夹 */
 
 	fs::path data_path( data_path_ );
 
